@@ -625,7 +625,7 @@
 							"response": []
 						},
 						{
-							"name": "Get Configuration - _noInheritance Copy",
+							"name": "Get Configuration History",
 							"request": {
 								"method": "GET",
 								"header": [
@@ -639,12 +639,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{tenantURL}}/configuration/_noInheritance",
+									"raw": "{{tenantURL}}/configuration/_history/_noInheritance",
 									"host": [
 										"{{tenantURL}}"
 									],
 									"path": [
 										"configuration",
+										"_history",
 										"_noInheritance"
 									]
 								},
