@@ -20,6 +20,9 @@ jobs:
       - name: Where AM I 
         run: pwd
 
+      - name: Help
+        run: ls
+
       - name: checkout repo
         uses: actions/checkout@v3
 
