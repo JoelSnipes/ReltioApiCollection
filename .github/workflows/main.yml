@@ -48,8 +48,22 @@ jobs:
       - name: Pull latest OpenAPI specs from Reltio Swagger
         run: python reltio_postman_gen.py
 
-      - name: Convert OpenAPI spec to Postman Collection
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
         run: openapi2postmanv2 -s openApiSpec/Configuration.json -o collections/generated/Configuration.json -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
+
+      - name: Convert OpenAPI spec to Postman Collection - Data Ingestion
+        run: openapi2postmanv2 -s "openApiSpec/Data Ingestion.json" -o "collections/generated/Data Ingestion.json" -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
+
+      - name: Convert OpenAPI spec to Postman Collection -Data Operation
+        run: openapi2postmanv2 -s "openApiSpec/Data Operation.json" -o "collections/generated/Data Operation.json" -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
+
+      - name: Convert OpenAPI spec to Postman Collection -Integration
+        run: openapi2postmanv2 -s openApiSpec/Integration.json -o collections/generated/Integration.json -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
+
+      - name: Convert OpenAPI spec to Postman Collection - Tenant Management
+        run: openapi2postmanv2 -s "openApiSpec/Tenant Management.json" -o "collections/generated/Tenant Management.json" -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
+
+
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v5.0.0
