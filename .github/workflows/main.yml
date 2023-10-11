@@ -43,5 +43,5 @@ jobs:
         run: python reltio_postman_gen.py
 
       - name: Convert OpenAPI spec to Postman Collection
-        run: openapi2postmanv2 -s openApispec/Configuration.json -o collections/generated/Configuration.json -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
+        run: openapi2postmanv2 -s openApiSpec/Configuration.json -o collections/generated/Configuration.json -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
 
