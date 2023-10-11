@@ -17,6 +17,9 @@ jobs:
 
     steps:
 
+      - name: Where AM I 
+        run: pwd
+
       - name: checkout repo
         uses: actions/checkout@v3
 
