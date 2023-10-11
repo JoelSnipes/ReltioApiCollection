@@ -1,9 +1,14 @@
 name: Generate postman collection and update if changed
 
 on:
-  schedule:
+  workflow_dispatch:  
+     inputs:
+      name:
+        description: 'Why are you running manually?'
+        default: 'just cuz'
+  #schedule:
     # Runs every 30th day at midnight
-    - cron: '0 0 */30 * *'
+  #  - cron: '0 0 */30 * *'
 
 jobs:
 
