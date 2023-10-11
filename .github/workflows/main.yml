@@ -48,6 +48,6 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v5.0.0
         with:
-          branch: master
+          branch: curated_collection_update
           title: Collection file updated - Manual workflow
-          body: Automated changes.  Collection file has been regenerated.  Please review 
+          body: Automated changes.  Collection file has been regenerated.  Please review and commit 
