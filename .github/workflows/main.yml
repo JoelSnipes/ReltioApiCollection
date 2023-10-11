@@ -1,0 +1,30 @@
+name: Generate postman collection and update if changed
+
+on:
+  schedule:
+    # Runs every 30th day at midnight
+    - cron: '0 0 */30 * *'
+
+jobs:
+
+  generate-collection:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: checkout repo
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.9.x'
+
+      - name: get openapi-to-postman
+        uses: actions/checkout@v3
+        with:
+          repository: postmanlabs/openapi-to-postman
+          path: graphman 
+
+      - name: Pull latest OpenAPI specs from Reltio Swagger
+        run: python reltio_postman_gen.py
