@@ -26,6 +26,9 @@ jobs:
       - name: Help
         run: ls
 
+      - name: Make dir
+        run: mkdir/collections/generated
+
       - name: setup python
         uses: actions/setup-python@v1
         with:
