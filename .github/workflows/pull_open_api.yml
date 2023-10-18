@@ -20,6 +20,9 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v3
 
+      - name: make directory if not there
+        run: mkdir -p collections/generated 
+
       - name: setup python
         uses: actions/setup-python@v1
         with:
