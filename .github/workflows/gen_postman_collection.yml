@@ -1,0 +1,51 @@
+name: Generate postman collections
+
+on:
+  workflow_dispatch:  
+     inputs:
+      name:
+        description: 'Why are you running manually?'
+        default: 'just cuz'
+  #schedule:
+    # Runs every 30th day at midnight
+  #  - cron: '0 0 */30 * *'
+
+jobs:
+
+  generate-collection:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: checkout repo
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.9.x'
+          
+      - name: install python module requests
+        run: pip install requests
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process collections/generated/Configuration.json
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process "collections/generated/Data Ingestion.json"
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process "collections/generated/Data Operation.json"
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process collections/generated/Integration.json
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process "collections/generated/Tenant Management.json"
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v5.0.0
+        with:
+          branch: curated_collection_update
+          title: Collection file updated - Manual workflow
+          body: Automated changes.  Collection file has been regenerated.  Please review and commit 
