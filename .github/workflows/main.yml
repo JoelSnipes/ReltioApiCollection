@@ -37,7 +37,7 @@ jobs:
         run: npm i -g openapi-to-postmanv2      
   
       - name: Pull latest OpenAPI specs from Reltio Swagger
-        run: python reltio_postman_gen.py
+        run: python reltio_postman_gen.py get_openapi_specs
 
       - name: Convert OpenAPI spec to Postman Collection - Configuration
         run: openapi2postmanv2 -s openApiSpec/Configuration.json -o collections/generated/Configuration.json -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
@@ -53,6 +53,21 @@ jobs:
 
       - name: Convert OpenAPI spec to Postman Collection - Tenant Management
         run: openapi2postmanv2 -s "openApiSpec/Tenant Management.json" -o "collections/generated/Tenant Management.json" -p -O folderStrategy=Tags,includeAuthInfoInExample=false,requestNameSource=URL,parametersResolution=Schema
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process collections/generated/Configuration.json
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process "collections/generated/Data Ingestion.json"
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process "collections/generated/Data Operation.json"
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process collections/generated/Integration.json
+
+      - name: Convert OpenAPI spec to Postman Collection - Configuration
+        run: python reltio_postman_gen.py post_process "collections/generated/Tenant Management.json"
 
 
 
