@@ -28,6 +28,9 @@ jobs:
       - name: install python module requests
         run: pip install requests
 
+      - name: make directory if not there
+        run: mkdir -p collections/generated 
+
       - name: Convert OpenAPI spec to Postman Collection - Configuration
         run: python reltio_postman_gen.py post_process collections/generated/Configuration.json
 
