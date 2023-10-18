@@ -15,7 +15,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -101,7 +100,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1273,7 +1272,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -1305,7 +1303,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1985,7 +1983,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -2016,7 +2013,7 @@
                                 {
                                     "disabled": false,
                                     "description": {
-                                        "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                        "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                         "type": "text/plain"
                                     },
                                     "key": "fileFormat",
@@ -2188,7 +2185,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -2313,7 +2310,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -2609,7 +2606,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -2905,7 +2902,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -3201,7 +3198,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -3497,7 +3494,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -3793,7 +3790,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -4079,7 +4076,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -4375,7 +4372,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -4671,7 +4668,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -4947,7 +4944,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -5051,7 +5047,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6379,7 +6375,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -6420,7 +6415,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7049,7 +7044,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -7072,7 +7066,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7539,7 +7533,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 ":tenantId",
@@ -7553,7 +7546,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8071,7 +8064,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 ":tenantId",
@@ -8087,7 +8079,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8501,7 +8493,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 ":tenantId",
@@ -8517,7 +8508,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8937,7 +8928,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -9077,7 +9067,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10999,7 +10989,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -11049,7 +11038,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -11713,7 +11702,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -11799,7 +11787,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -12965,7 +12953,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -13024,7 +13011,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -13815,7 +13802,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -13855,7 +13841,7 @@
                                 {
                                     "disabled": false,
                                     "description": {
-                                        "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                        "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                         "type": "text/plain"
                                     },
                                     "key": "updateRelations",
@@ -13928,7 +13914,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -14008,7 +13994,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14160,7 +14146,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14312,7 +14298,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14464,7 +14450,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14616,7 +14602,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14768,7 +14754,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14910,7 +14896,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -15062,7 +15048,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -15214,7 +15200,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -15343,7 +15329,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -15411,7 +15396,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16418,7 +16403,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -16441,7 +16425,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16678,7 +16662,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -16729,7 +16712,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17060,7 +17043,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -17111,7 +17093,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17448,7 +17430,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "status",
                                 "tenant",
                                 ":tenantId",
@@ -17471,7 +17452,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17952,7 +17933,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 "deployments"
@@ -18534,7 +18514,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -18547,7 +18526,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -18912,7 +18891,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -18925,7 +18903,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19290,7 +19268,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -19304,7 +19281,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19674,7 +19651,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -19687,7 +19663,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19974,7 +19950,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -19988,7 +19963,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20290,7 +20265,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -20304,7 +20278,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20606,7 +20580,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -20619,7 +20592,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20858,7 +20831,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -20872,7 +20844,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21180,7 +21152,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -21194,7 +21165,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21502,7 +21473,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -21516,7 +21486,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21824,7 +21794,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -21838,7 +21807,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -22146,7 +22115,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -22160,7 +22128,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -22413,7 +22381,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -22426,7 +22393,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -22791,7 +22758,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -22804,7 +22770,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -23088,7 +23054,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -23120,7 +23085,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -23435,7 +23400,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -23467,7 +23431,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -23849,7 +23813,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -23863,7 +23826,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -24155,7 +24118,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -24169,7 +24131,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -24471,7 +24433,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -24484,7 +24445,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -24846,7 +24807,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -24869,7 +24829,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -25213,7 +25173,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -25237,7 +25196,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -25729,7 +25688,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -25743,7 +25701,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -26113,7 +26071,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -26155,7 +26112,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -26597,7 +26554,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -26611,7 +26567,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -26913,7 +26869,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -26928,7 +26883,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -27235,7 +27190,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -27250,7 +27204,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -27557,7 +27511,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -27572,7 +27525,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -27879,7 +27832,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -27938,7 +27890,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -28455,7 +28407,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -28468,7 +28419,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -28833,7 +28784,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -28856,7 +28806,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -29200,7 +29150,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -29214,7 +29163,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -29584,7 +29533,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -29598,7 +29546,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -29968,7 +29916,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -29982,7 +29929,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -30290,7 +30237,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -30304,7 +30250,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -30612,7 +30558,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -30626,7 +30571,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -30996,7 +30941,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -31011,7 +30955,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -31323,7 +31267,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -31337,7 +31280,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -31645,7 +31588,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -31678,7 +31620,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -32075,7 +32017,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -32089,7 +32030,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -32469,7 +32410,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -32484,7 +32424,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -32869,7 +32809,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -32884,7 +32823,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -33197,7 +33136,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -33222,7 +33160,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -33423,7 +33361,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -33439,7 +33376,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -33678,7 +33615,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -33703,7 +33639,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -34333,7 +34269,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -34348,7 +34283,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -34557,7 +34492,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -34572,7 +34506,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -34792,7 +34726,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -34807,7 +34740,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -35022,7 +34955,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -35037,7 +34969,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -35243,7 +35175,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users"
@@ -35384,7 +35315,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users"
@@ -35630,7 +35560,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -35818,7 +35747,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -35832,7 +35760,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "}V9a@",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -36006,7 +35934,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -36263,7 +36190,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -36741,7 +36667,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -36948,7 +36873,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -37160,7 +37084,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -37550,7 +37473,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -37808,7 +37730,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "export",
                                 ":tenantId"
                             ],
@@ -37819,7 +37740,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -38100,7 +38021,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "export",
                                 ":tenantId",
                                 "decryptUrl"
@@ -38112,7 +38032,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -38405,5 +38325,6 @@
             "content": "Monitor and run jobs on your tenant.\n\nContact Support:\n Name: Reltio\n Email: support@reltio.com",
             "type": "text/plain"
         }
-    }
+    },
+    "auth": "oath2"
 }

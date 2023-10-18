@@ -15,7 +15,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -28,7 +27,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -405,7 +404,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -418,7 +416,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -927,7 +925,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -941,7 +938,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1327,7 +1324,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -1341,7 +1337,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1727,7 +1723,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -1741,7 +1736,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -2127,7 +2122,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -2141,7 +2135,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -2659,7 +2653,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tenants",
                                 ":tenantId",
@@ -2672,7 +2665,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -3181,7 +3174,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 "matching",
@@ -3241,7 +3233,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -4041,7 +4033,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 "matching",
@@ -4093,7 +4084,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -4831,7 +4822,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 "matching",
@@ -4845,7 +4835,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5237,7 +5227,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "permissions",
                                 ":tenantId",
@@ -5260,7 +5249,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5503,7 +5492,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions"
@@ -5515,7 +5503,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5750,7 +5738,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -5763,7 +5750,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5967,7 +5954,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -5980,7 +5966,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6355,7 +6341,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -6368,7 +6353,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6572,7 +6557,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -6586,7 +6570,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6849,7 +6833,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -6863,7 +6846,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7191,7 +7174,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -7205,7 +7187,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7474,7 +7456,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions"
@@ -7486,7 +7467,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7790,7 +7771,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions"
@@ -7802,7 +7782,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8210,7 +8190,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions",
@@ -8223,7 +8202,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8544,7 +8523,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions",
@@ -8557,7 +8535,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8761,7 +8739,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions",
@@ -8775,7 +8752,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9217,7 +9194,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "execute",
@@ -9230,7 +9206,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9661,7 +9637,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -9685,7 +9660,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10089,7 +10064,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -10103,7 +10077,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10561,7 +10535,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -10575,7 +10548,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10889,7 +10862,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -10904,7 +10876,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -11233,7 +11205,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11246,7 +11217,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "7~:Dp",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -11440,7 +11411,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11453,7 +11423,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "7~:Dp",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -11712,7 +11682,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11736,7 +11705,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "7~:Dp",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -11974,7 +11943,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11988,7 +11956,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "7~:Dp",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -12251,7 +12219,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -12265,7 +12232,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "7~:Dp",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -12528,7 +12495,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -12543,7 +12509,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -12810,7 +12776,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -12826,7 +12791,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13042,7 +13007,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13058,7 +13022,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13329,7 +13293,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13345,7 +13308,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13519,7 +13482,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "roles",
@@ -13697,7 +13659,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13711,7 +13672,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13906,7 +13867,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13920,7 +13880,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14183,7 +14143,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14198,7 +14157,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14407,7 +14366,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14432,7 +14390,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14746,7 +14704,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14761,7 +14718,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14970,7 +14927,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14986,7 +14942,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -15199,7 +15155,6 @@
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -15215,7 +15170,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -15437,7 +15392,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "configuration",
                                 ":tenantId"
                             ],
@@ -15448,7 +15402,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -15647,7 +15601,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "configuration",
                                 ":tenantId"
                             ],
@@ -15658,7 +15611,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -15939,7 +15892,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId"
                             ],
@@ -15950,7 +15902,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16231,7 +16183,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId",
                                 ":name"
@@ -16243,7 +16194,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16457,7 +16408,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId",
                                 ":name"
@@ -16469,7 +16419,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16683,7 +16633,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId",
                                 ":name",
@@ -16696,7 +16645,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16921,7 +16870,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -16936,7 +16884,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -16946,7 +16894,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17148,7 +17096,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -17163,7 +17110,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -17173,7 +17120,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17548,7 +17495,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -17563,7 +17509,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -17573,7 +17519,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17894,7 +17840,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -17909,7 +17854,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -17919,7 +17864,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -18128,5 +18073,6 @@
             "content": "Define metadata configuration of your tenants from a collection of APIs.\n\nContact Support:\n Name: Reltio\n Email: support@reltio.com",
             "type": "text/plain"
         }
-    }
+    },
+    "auth": "oath2"
 }
