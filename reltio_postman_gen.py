@@ -47,6 +47,7 @@ def remove_path_variable(path, variable):
                 folder.get('request').get('url').get('path').remove(variable)
             except:
                 pass
+            break
 
         else:
             try:
@@ -63,6 +64,12 @@ def replace_variable(path, find, replace):
     collection= load_collection(path)
     for folder in collection.get('item'):
         endpoints = folder.get('item')
+        if endpoints is None:
+            try:
+                endpoint.get('request').get('url').get('variable')["value"] = replace
+            except:
+                pass
+            break
         for endpoint in endpoints:
             for variable in endpoint.get('request').get('url').get('variable'):
                  if variable["key"] == find:
