@@ -41,8 +41,17 @@ def remove_path_variable(path, variable):
     collection= load_collection(path)
     for folder in collection.get('item'):
         endpoints = folder.get('item')
-        for endpoint in endpoints:
-            try:{endpoint.get('request').get('url').get('path').remove(variable)}
+        #if endpoint is not in a folder
+        if endpoints is None:
+            try:
+                folder.get('request').get('url').get('path').remove(variable)
+            except:
+                pass
+
+        else:
+            try:
+                for endpoint in endpoints:
+                    endpoint.get('request').get('url').get('path').remove(variable)
             except:
                 pass  
                 
