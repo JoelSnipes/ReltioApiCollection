@@ -15,7 +15,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities"
                             ],
@@ -272,7 +271,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities"
                             ],
@@ -427,7 +425,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_import"
@@ -890,7 +887,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_matchesForCtEntities"
@@ -1387,7 +1383,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_merge"
@@ -1913,7 +1908,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_notMatch"
@@ -2064,7 +2058,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_notMatch"
@@ -2365,7 +2358,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_notMatch"
@@ -2591,7 +2583,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_unmerge"
@@ -2799,7 +2790,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_verifyMatches"
@@ -3037,7 +3027,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "relations",
                                 "_importRelation"
@@ -3434,7 +3423,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "relations",
                                 "_importRelations"
@@ -3855,7 +3843,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dnb",
                                 "getDetailedProfile"
                             ],
@@ -4112,7 +4099,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dnb",
                                 "getFamilyTree"
                             ],
@@ -4351,7 +4337,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dnb",
                                 "getOrgMatch"
                             ],
@@ -5891,7 +5876,7 @@
                     "request": {
                         "name": "//dnb/monitoring/background",
                         "description": {
-                            "content": "A monitoring background job is a process that lists the event's destination, reads event files and notification files, and uploads them to the corresponding Reltio tenant. The destination, for now, is the S3 bucket only. The monitoring background job can be started manually to immediately process incoming data or can be scheduled using a cron expression.<ul type=\"square\"><li>Cron’s scheduled background monitoring process will automatically calculate the new files on each iteration by searching for previously started a job and extract max file timestamp from them which will be used as a starting point for the new job</li><li>Monitoring background job started without cron expression will treat all existing files in the destination location as new and process them</li><ul>",
+                            "content": "A monitoring background job is a process that lists the event's destination, reads event files and notification files, and uploads them to the corresponding Reltio tenant. The destination, for now, is the S3 bucket only. The monitoring background job can be started manually to immediately process incoming data or can be scheduled using a cron expression.<ul type=\"square\"><li>Cron\u2019s scheduled background monitoring process will automatically calculate the new files on each iteration by searching for previously started a job and extract max file timestamp from them which will be used as a starting point for the new job</li><li>Monitoring background job started without cron expression will treat all existing files in the destination location as new and process them</li><ul>",
                             "type": "text/plain"
                         },
                         "url": {
@@ -6937,7 +6922,7 @@
                     "request": {
                         "name": "//dnb/monitoring/registration",
                         "description": {
-                            "content": "Removes the entity’s DUNS number from the DnB monitoring registration.  The entity must have a DUNS number. This is on demand API call and can be configured to be called from Reltio UI using a button click",
+                            "content": "Removes the entity\u2019s DUNS number from the DnB monitoring registration.  The entity must have a DUNS number. This is on demand API call and can be configured to be called from Reltio UI using a button click",
                             "type": "text/plain"
                         },
                         "url": {
@@ -7180,5 +7165,6 @@
             "content": "Contact Support:\n Name: Reltio\n Email: support@reltio.com",
             "type": "text/plain"
         }
-    }
+    },
+    "auth": "oath2"
 }
