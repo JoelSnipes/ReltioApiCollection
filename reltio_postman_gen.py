@@ -18,7 +18,7 @@ def get_openapi_specs():
 
         #Save to File in openApiSpec folder
         filename = "openApiSpec/" + module + ".json"
-        with open(filename, "w") as f:
+        with open(filename, "w+") as f:
             f.write(response.text)
         #print(response.text)
 
@@ -120,7 +120,7 @@ def load_collection(path):
     return collection
 
 def write_collection(collection, path):
-    with open(path, 'w') as f:
+    with open(path, 'w+') as f:
         json.dump(collection, f, indent=4)
 
 def main(args):
