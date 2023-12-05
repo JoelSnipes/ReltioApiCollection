@@ -6,7 +6,7 @@
             "item": [
                 {
                     "id": "d01298aa-39f6-4755-bd91-49f8060d90fd",
-                    "name": "/services/reltio/api/:tenantId/entities",
+                    "name": "/entities",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/entities",
                         "description": {
@@ -15,7 +15,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -47,7 +46,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -717,7 +716,7 @@
                 },
                 {
                     "id": "37c32cf5-8f86-47cc-9f1c-f098d9e1c95d",
-                    "name": "/services/reltio/api/:tenantId/entities/_conditional",
+                    "name": "/entities/_conditional",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/entities/_conditional",
                         "description": {
@@ -726,7 +725,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -858,7 +856,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1077,7 +1075,7 @@
             "item": [
                 {
                     "id": "80f68e2c-0be8-49c9-acab-42bbf716cbbe",
-                    "name": "/services/reltio/api/:tenantId/interactions",
+                    "name": "/interactions",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/interactions",
                         "description": {
@@ -1086,7 +1084,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -1127,7 +1124,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1975,7 +1972,7 @@
             "item": [
                 {
                     "id": "9d3d5990-9ec6-41d9-a4d2-1afd206c26fa",
-                    "name": "/services/reltio/api/:tenantId/relations",
+                    "name": "/relations",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/relations",
                         "description": {
@@ -1984,7 +1981,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -2016,7 +2012,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -2692,7 +2688,7 @@
             "item": [
                 {
                     "id": "d317ee2e-67bb-4d9d-83c3-5d13f3f6cfa7",
-                    "name": "/services/dataloader/api/:tenantId/_mapping",
+                    "name": "/dataloader/_mapping",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/_mapping",
                         "description": {
@@ -2701,7 +2697,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -2714,7 +2709,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -3068,7 +3063,7 @@
                 },
                 {
                     "id": "80b057c4-4b5d-42de-b4a9-1f4e1119fad6",
-                    "name": "/services/dataloader/api/:tenantId/_mapping/:mappingId",
+                    "name": "/dataloader/_mapping/:mappingId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/_mapping/:mappingId",
                         "description": {
@@ -3077,7 +3072,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -3101,7 +3095,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -3440,7 +3434,7 @@
                 },
                 {
                     "id": "63fa2172-ad0d-446e-88f7-ccc36786b24c",
-                    "name": "/services/dataloader/api/:tenantId/_mapping/:mappingId",
+                    "name": "/dataloader/_mapping/:mappingId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/_mapping/:mappingId",
                         "description": {
@@ -3449,7 +3443,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -3463,7 +3456,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -3833,7 +3826,7 @@
                 },
                 {
                     "id": "3f9489d5-6470-45e5-8155-34379365973c",
-                    "name": "/services/dataloader/api/:tenantId/_mapping/:mappingId",
+                    "name": "/dataloader/_mapping/:mappingId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/_mapping/:mappingId",
                         "description": {
@@ -3842,7 +3835,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -3856,7 +3848,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -4163,7 +4155,7 @@
                 },
                 {
                     "id": "20619277-3535-44d9-a8c4-e555e0a94138",
-                    "name": "/services/dataloader/api/:tenantId/_mappings",
+                    "name": "/dataloader/_mappings",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/_mappings",
                         "description": {
@@ -4172,7 +4164,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -4258,7 +4249,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -4959,7 +4950,7 @@
                 },
                 {
                     "id": "d8e48fc7-cc45-4678-add4-3d2ea0705840",
-                    "name": "/services/dataloader/api/:tenantId/configuration/_limits",
+                    "name": "/dataloader/configuration/_limits",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/configuration/_limits",
                         "description": {
@@ -4968,7 +4959,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -5028,7 +5018,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5573,7 +5563,7 @@
                 },
                 {
                     "id": "a412111a-715b-4ecf-ad01-77e6001df172",
-                    "name": "/services/dataloader/api/:tenantId/configuration/_limits",
+                    "name": "/dataloader/configuration/_limits",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/configuration/_limits",
                         "description": {
@@ -5582,7 +5572,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -5596,7 +5585,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5956,7 +5945,7 @@
                 },
                 {
                     "id": "227e010c-adc5-4ff3-b969-22f74e4e61bb",
-                    "name": "/services/dataloader/api/:tenantId/configuration/_limits/:id",
+                    "name": "/dataloader/configuration/_limits/:id",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/configuration/_limits/:id",
                         "description": {
@@ -5965,7 +5954,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -5980,7 +5968,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6265,7 +6253,7 @@
                 },
                 {
                     "id": "7626c924-88e8-451e-b3d4-6959c16e39c0",
-                    "name": "/services/dataloader/api/:tenantId/configuration/_limits/:id",
+                    "name": "/dataloader/configuration/_limits/:id",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/configuration/_limits/:id",
                         "description": {
@@ -6274,7 +6262,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -6289,7 +6276,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6665,7 +6652,7 @@
                 },
                 {
                     "id": "3c122c2a-7d11-402b-a6dd-6c76cacf4514",
-                    "name": "/services/dataloader/api/:tenantId/configuration/_limits/:id",
+                    "name": "/dataloader/configuration/_limits/:id",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/configuration/_limits/:id",
                         "description": {
@@ -6674,7 +6661,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -6689,7 +6675,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6962,7 +6948,7 @@
                 },
                 {
                     "id": "bcbdc75d-7a4c-4491-9a8b-9329ccd390d4",
-                    "name": "/services/dataloader/api/:tenantId/project",
+                    "name": "/dataloader/project",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project",
                         "description": {
@@ -6971,7 +6957,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -6984,7 +6969,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7338,7 +7323,7 @@
                 },
                 {
                     "id": "87fefbcd-2e1d-4f3b-90f5-76c4692dac6f",
-                    "name": "/services/dataloader/api/:tenantId/project/data/source",
+                    "name": "/dataloader/project/data/source",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/data/source",
                         "description": {
@@ -7347,7 +7332,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -7399,7 +7383,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7896,7 +7880,7 @@
                 },
                 {
                     "id": "1076d361-1cea-4c60-9be2-eedbdc84a1fc",
-                    "name": "/services/dataloader/api/:tenantId/project/data/source",
+                    "name": "/dataloader/project/data/source",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/data/source",
                         "description": {
@@ -7905,7 +7889,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -7920,7 +7903,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8286,7 +8269,7 @@
                 },
                 {
                     "id": "b02e009f-30fd-45ba-aba2-860eedc12bdb",
-                    "name": "/services/dataloader/api/:tenantId/project/data/source/:sourceId",
+                    "name": "/dataloader/project/data/source/:sourceId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/data/source/:sourceId",
                         "description": {
@@ -8295,7 +8278,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -8311,7 +8293,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8602,7 +8584,7 @@
                 },
                 {
                     "id": "d8404322-5ace-449b-8713-92e9a70aea6b",
-                    "name": "/services/dataloader/api/:tenantId/project/data/source/:sourceId",
+                    "name": "/dataloader/project/data/source/:sourceId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/data/source/:sourceId",
                         "description": {
@@ -8611,7 +8593,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -8627,7 +8608,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9009,7 +8990,7 @@
                 },
                 {
                     "id": "36cf0c7f-ad41-44c6-bd40-87ce61fea9f4",
-                    "name": "/services/dataloader/api/:tenantId/project/data/source/:sourceId",
+                    "name": "/dataloader/project/data/source/:sourceId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/data/source/:sourceId",
                         "description": {
@@ -9018,7 +8999,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -9034,7 +9014,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9313,7 +9293,7 @@
                 },
                 {
                     "id": "30759c6a-45f7-4ebf-950f-32456c18ed65",
-                    "name": "/services/dataloader/api/:tenantId/project/job/:jobId",
+                    "name": "/dataloader/project/job/:jobId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/job/:jobId",
                         "description": {
@@ -9322,7 +9302,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -9337,7 +9316,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9622,7 +9601,7 @@
                 },
                 {
                     "id": "12cdc37f-1252-4776-870d-bf6569a34018",
-                    "name": "/services/dataloader/api/:tenantId/project/job/:jobId",
+                    "name": "/dataloader/project/job/:jobId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/job/:jobId",
                         "description": {
@@ -9631,7 +9610,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -9646,7 +9624,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10022,7 +10000,7 @@
                 },
                 {
                     "id": "e1d8b218-5ada-4171-b43d-6f0f759b130f",
-                    "name": "/services/dataloader/api/:tenantId/project/job/:jobId",
+                    "name": "/dataloader/project/job/:jobId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/job/:jobId",
                         "description": {
@@ -10031,7 +10009,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -10046,7 +10023,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10319,7 +10296,7 @@
                 },
                 {
                     "id": "829c6bc3-2c3b-4eb0-a980-d1d4c4b6f4d2",
-                    "name": "/services/dataloader/api/:tenantId/project/job/:jobId/_resume",
+                    "name": "/dataloader/project/job/:jobId/_resume",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/job/:jobId/_resume",
                         "description": {
@@ -10328,7 +10305,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -10344,7 +10320,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10569,7 +10545,7 @@
                 },
                 {
                     "id": "d7cd5bc6-88ae-40ac-85a5-0c82b2f8d8e3",
-                    "name": "/services/dataloader/api/:tenantId/project/job/:jobId/_stop",
+                    "name": "/dataloader/project/job/:jobId/_stop",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/job/:jobId/_stop",
                         "description": {
@@ -10578,7 +10554,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -10594,7 +10569,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10831,7 +10806,7 @@
                 },
                 {
                     "id": "8305f418-ac0b-45dd-9177-126241669f08",
-                    "name": "/services/dataloader/api/:tenantId/project/job/:jobId/errors",
+                    "name": "/dataloader/project/job/:jobId/errors",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/job/:jobId/errors",
                         "description": {
@@ -10840,7 +10815,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -10866,7 +10840,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -11205,7 +11179,7 @@
                 },
                 {
                     "id": "57b4db48-6d88-456d-8ae4-749e9b3e4fee",
-                    "name": "/services/dataloader/api/:tenantId/project/job/:jobId/source",
+                    "name": "/dataloader/project/job/:jobId/source",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/job/:jobId/source",
                         "description": {
@@ -11214,7 +11188,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -11230,7 +11203,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -11509,7 +11482,7 @@
                 },
                 {
                     "id": "5a91ad1c-f29c-42f1-8f1c-4044ae8bdb9b",
-                    "name": "/services/dataloader/api/:tenantId/project/jobs",
+                    "name": "/dataloader/project/jobs",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/jobs",
                         "description": {
@@ -11518,7 +11491,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -11614,7 +11586,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -12321,7 +12293,7 @@
                 },
                 {
                     "id": "4166de52-fbb0-43f4-8406-8f22fb200d0f",
-                    "name": "/services/dataloader/api/:tenantId/project/jobs/_facets",
+                    "name": "/dataloader/project/jobs/_facets",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/jobs/_facets",
                         "description": {
@@ -12330,7 +12302,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -12418,7 +12389,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -13023,7 +12994,7 @@
                 },
                 {
                     "id": "157e2727-a105-423b-a9c1-490449ccfdf4",
-                    "name": "/services/dataloader/api/:tenantId/project/:projectId",
+                    "name": "/dataloader/project/:projectId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/:projectId",
                         "description": {
@@ -13032,7 +13003,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -13046,7 +13016,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -13325,7 +13295,7 @@
                 },
                 {
                     "id": "b3cb5274-cc84-442f-a992-1d1874d360ac",
-                    "name": "/services/dataloader/api/:tenantId/project/:projectId",
+                    "name": "/dataloader/project/:projectId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/:projectId",
                         "description": {
@@ -13334,7 +13304,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -13348,7 +13317,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -13718,7 +13687,7 @@
                 },
                 {
                     "id": "c0d8793b-35a2-4bd3-8d0c-64d572d8070a",
-                    "name": "/services/dataloader/api/:tenantId/project/:projectId",
+                    "name": "/dataloader/project/:projectId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/:projectId",
                         "description": {
@@ -13727,7 +13696,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -13741,7 +13709,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -14008,7 +13976,7 @@
                 },
                 {
                     "id": "4d5ab1f8-370d-44fb-a5e3-080285242741",
-                    "name": "/services/dataloader/api/:tenantId/project/:projectId/jobs",
+                    "name": "/dataloader/project/:projectId/jobs",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/:projectId/jobs",
                         "description": {
@@ -14017,7 +13985,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -14105,7 +14072,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -14774,7 +14741,7 @@
                 },
                 {
                     "id": "340dca8c-e69f-471b-8ccd-a78adbf8cb4a",
-                    "name": "/services/dataloader/api/:tenantId/project/:projectId/jobs",
+                    "name": "/dataloader/project/:projectId/jobs",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/:projectId/jobs",
                         "description": {
@@ -14783,7 +14750,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -14798,7 +14764,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -15174,7 +15140,7 @@
                 },
                 {
                     "id": "3ee9bc74-6f13-4922-825c-de5d130dd54b",
-                    "name": "/services/dataloader/api/:tenantId/project/:projectId/jobs/run",
+                    "name": "/dataloader/project/:projectId/jobs/run",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/project/:projectId/jobs/run",
                         "description": {
@@ -15183,7 +15149,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -15199,7 +15164,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -15581,7 +15546,7 @@
                 },
                 {
                     "id": "6a84222c-9592-403f-a5eb-b11df16c83fe",
-                    "name": "/services/dataloader/api/:tenantId/projects",
+                    "name": "/dataloader/projects",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/projects",
                         "description": {
@@ -15590,7 +15555,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -15685,7 +15649,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16440,7 +16404,7 @@
                 },
                 {
                     "id": "f42f0bdf-5fb7-46c4-ae5b-5b574ac60727",
-                    "name": "/services/dataloader/api/:tenantId/storage/_account",
+                    "name": "/dataloader/storage/_account",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/_account",
                         "description": {
@@ -16449,7 +16413,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -16463,7 +16426,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16823,7 +16786,7 @@
                 },
                 {
                     "id": "8b1f4225-3d01-4d97-861f-1745858572e8",
-                    "name": "/services/dataloader/api/:tenantId/storage/_account/:accountId",
+                    "name": "/dataloader/storage/_account/:accountId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/_account/:accountId",
                         "description": {
@@ -16832,7 +16795,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -16847,7 +16809,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17132,7 +17094,7 @@
                 },
                 {
                     "id": "53837850-ce3f-4313-9dbe-081f499ac97a",
-                    "name": "/services/dataloader/api/:tenantId/storage/_account/:accountId",
+                    "name": "/dataloader/storage/_account/:accountId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/_account/:accountId",
                         "description": {
@@ -17141,7 +17103,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -17156,7 +17117,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17532,7 +17493,7 @@
                 },
                 {
                     "id": "c42e2554-0925-4973-b8f5-44b8b90e0d45",
-                    "name": "/services/dataloader/api/:tenantId/storage/_account/:accountId",
+                    "name": "/dataloader/storage/_account/:accountId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/_account/:accountId",
                         "description": {
@@ -17541,7 +17502,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -17556,7 +17516,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17829,7 +17789,7 @@
                 },
                 {
                     "id": "8f0e53c3-1d57-4555-81a6-a63c51dde207",
-                    "name": "/services/dataloader/api/:tenantId/storage/_accounts",
+                    "name": "/dataloader/storage/_accounts",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/_accounts",
                         "description": {
@@ -17838,7 +17798,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -17898,7 +17857,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -18443,7 +18402,7 @@
                 },
                 {
                     "id": "7241914a-3b20-448a-a378-5fdab8fd8ffa",
-                    "name": "/services/dataloader/api/:tenantId/storage/:directory/upload",
+                    "name": "/dataloader/storage/:directory/upload",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/:directory/upload",
                         "description": {
@@ -18452,7 +18411,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -18495,7 +18453,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19067,7 +19025,7 @@
                 },
                 {
                     "id": "b89f44fe-fc0e-4680-bf9f-8c4450057ade",
-                    "name": "/services/dataloader/api/:tenantId/storage/:sourceId",
+                    "name": "/dataloader/storage/:sourceId",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/:sourceId",
                         "description": {
@@ -19076,7 +19034,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -19090,7 +19047,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19357,7 +19314,7 @@
                 },
                 {
                     "id": "cb650851-6d06-4a0d-bef9-704abc3f1b8c",
-                    "name": "/services/dataloader/api/:tenantId/storage/:sourceId/read",
+                    "name": "/dataloader/storage/:sourceId/read",
                     "request": {
                         "name": "/services/dataloader/api/:tenantId/storage/:sourceId/read",
                         "description": {
@@ -19366,7 +19323,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dataloader",
                                 "api",
                                 ":tenantId",
@@ -19391,7 +19347,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19742,7 +19698,7 @@
             "item": [
                 {
                     "id": "c0ff4baa-a86f-452d-8cdb-20f7d8f4c41e",
-                    "name": "/services/lookups/:tenantId",
+                    "name": "/lookups",
                     "request": {
                         "name": "/services/lookups/:tenantId",
                         "description": {
@@ -19751,7 +19707,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "lookups",
                                 ":tenantId"
                             ],
@@ -19762,7 +19717,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20034,7 +19989,7 @@
                 },
                 {
                     "id": "9196f764-e1b3-4b71-832e-e1591098d051",
-                    "name": "/services/lookups/:tenantId/:type",
+                    "name": "/lookups/:type",
                     "request": {
                         "name": "/services/lookups/:tenantId/:type",
                         "description": {
@@ -20043,7 +19998,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "lookups",
                                 ":tenantId",
                                 ":type"
@@ -20055,7 +20009,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20342,7 +20296,7 @@
                 },
                 {
                     "id": "3ee6a3f0-3c16-4360-9f27-b6495964143f",
-                    "name": "/services/lookups/:tenantId/:type/:code",
+                    "name": "/lookups/:type/:code",
                     "request": {
                         "name": "/services/lookups/:tenantId/:type/:code",
                         "description": {
@@ -20351,7 +20305,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "lookups",
                                 ":tenantId",
                                 ":type",
@@ -20364,7 +20317,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20666,7 +20619,7 @@
                 },
                 {
                     "id": "1fde54c2-d727-4b1a-b72c-0e11e4d5ca26",
-                    "name": "/services/unmapped/:tenantId",
+                    "name": "/unmapped",
                     "request": {
                         "name": "/services/unmapped/:tenantId",
                         "description": {
@@ -20675,7 +20628,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "unmapped",
                                 ":tenantId"
                             ],
@@ -20696,7 +20648,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21018,7 +20970,7 @@
                 },
                 {
                     "id": "5236d8f5-d136-4052-8ff9-b8d03edea0f5",
-                    "name": "/services/unmapped/:tenantId/:type",
+                    "name": "/unmapped/:type",
                     "request": {
                         "name": "/services/unmapped/:tenantId/:type",
                         "description": {
@@ -21027,7 +20979,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "unmapped",
                                 ":tenantId",
                                 ":type"
@@ -21049,7 +21000,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21402,5 +21353,6 @@
             "content": "Load data into entities, relationships, interactions, crosswalks and reference data.\n\nContact Support:\n Name: Reltio\n Email: support@reltio.com",
             "type": "text/plain"
         }
-    }
+    },
+    "auth": "oath2"
 }

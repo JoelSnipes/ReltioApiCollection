@@ -6,7 +6,7 @@
             "item": [
                 {
                     "id": "55d367e2-8667-44c6-93c6-d6a7b7a4247c",
-                    "name": "/services/reltio/api/:tenantId/batchUnmergeEntities",
+                    "name": "/batchUnmergeEntities",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/batchUnmergeEntities",
                         "description": {
@@ -15,7 +15,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -92,7 +91,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -224,7 +223,7 @@
                 },
                 {
                     "id": "cb24fef6-a403-4f18-92d9-93423330b3a1",
-                    "name": "/services/reltio/api/:tenantId/cleanupMatches",
+                    "name": "/cleanupMatches",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/cleanupMatches",
                         "description": {
@@ -233,7 +232,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -265,7 +263,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -936,7 +934,7 @@
                 },
                 {
                     "id": "750d960d-07ba-4d5a-ba4e-7a155fb291ed",
-                    "name": "/services/reltio/api/:tenantId/externalMatch",
+                    "name": "/externalMatch",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/externalMatch",
                         "description": {
@@ -945,7 +943,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -976,7 +973,7 @@
                                 {
                                     "disabled": false,
                                     "description": {
-                                        "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                        "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                         "type": "text/plain"
                                     },
                                     "key": "fileFormat",
@@ -1148,7 +1145,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1273,7 +1270,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -1569,7 +1566,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -1865,7 +1862,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -2161,7 +2158,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -2457,7 +2454,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -2753,7 +2750,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -3039,7 +3036,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -3335,7 +3332,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -3631,7 +3628,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "The format of the output file records. Formats: <br><ul><li>csv — CSV format</li><li>json — Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 — Single line JSON (single input line results into single output line)</li></ul>",
+                                                "content": "The format of the output file records. Formats: <br><ul><li>csv \u2014 CSV format</li><li>json \u2014 Multiline JSON (single input line may result in multiple output lines)</li><li>json_v2 \u2014 Single line JSON (single input line results into single output line)</li></ul>",
                                                 "type": "text/plain"
                                             },
                                             "key": "fileFormat",
@@ -3898,7 +3895,7 @@
                 },
                 {
                     "id": "d5a201ec-9ff2-49b9-8373-8ff02917fd91",
-                    "name": "/services/reltio/api/:tenantId/rebuildmatchtable",
+                    "name": "/rebuildmatchtable",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/rebuildmatchtable",
                         "description": {
@@ -3907,7 +3904,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -4011,7 +4007,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5330,7 +5326,7 @@
                 },
                 {
                     "id": "7ab03047-1de6-41d4-93d9-2bdd1dcf2ac4",
-                    "name": "/services/reltio/api/:tenantId/rebuildpmcounters",
+                    "name": "/rebuildpmcounters",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/rebuildpmcounters",
                         "description": {
@@ -5339,7 +5335,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -5380,7 +5375,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6000,7 +5995,7 @@
                 },
                 {
                     "id": "e54d9228-830c-464a-99df-180ba2591c93",
-                    "name": "/services/reltio/api/:tenantId/removepmcounters",
+                    "name": "/removepmcounters",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/removepmcounters",
                         "description": {
@@ -6009,7 +6004,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -6032,7 +6026,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6490,7 +6484,7 @@
                 },
                 {
                     "id": "a43b8290-4aa1-46d8-8de6-a1a58b93c578",
-                    "name": "/services/reltio/tools/:tenantId/analyzeMatchRules/v2",
+                    "name": "/tools/analyzeMatchRules/v2",
                     "request": {
                         "name": "/services/reltio/tools/:tenantId/analyzeMatchRules/v2",
                         "description": {
@@ -6499,7 +6493,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 ":tenantId",
@@ -6513,7 +6506,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7022,7 +7015,7 @@
                 },
                 {
                     "id": "9ec4dd40-8665-4a66-bb11-8541c1c33f9f",
-                    "name": "/services/reltio/tools/:tenantId/analyzeMatchRules/v2/profiling/:profilingId",
+                    "name": "/tools/analyzeMatchRules/v2/profiling/:profilingId",
                     "request": {
                         "name": "/services/reltio/tools/:tenantId/analyzeMatchRules/v2/profiling/:profilingId",
                         "description": {
@@ -7031,7 +7024,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 ":tenantId",
@@ -7047,7 +7039,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7452,7 +7444,7 @@
                 },
                 {
                     "id": "33d2ae31-c448-4569-8587-e6f7079e8758",
-                    "name": "/services/reltio/tools/:tenantId/analyzeMatchRules/v2/:profilingId/_stop",
+                    "name": "/tools/analyzeMatchRules/v2/:profilingId/_stop",
                     "request": {
                         "name": "/services/reltio/tools/:tenantId/analyzeMatchRules/v2/:profilingId/_stop",
                         "description": {
@@ -7461,7 +7453,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 ":tenantId",
@@ -7477,7 +7468,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7888,7 +7879,7 @@
             "item": [
                 {
                     "id": "28ef8e74-c4af-464b-969b-b12ecda37528",
-                    "name": "/services/reltio/api/:tenantId/cleanse",
+                    "name": "/cleanse",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/cleanse",
                         "description": {
@@ -7897,7 +7888,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -7983,7 +7973,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9146,7 +9136,7 @@
             "item": [
                 {
                     "id": "4aed67ac-75d0-4a23-8d49-434cfe0ac6cd",
-                    "name": "/services/reltio/api/:tenantId/reindex",
+                    "name": "/reindex",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/reindex",
                         "description": {
@@ -9155,7 +9145,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -9295,7 +9284,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -11208,7 +11197,7 @@
                 },
                 {
                     "id": "c689702f-7c31-47de-b4a3-066023e35edd",
-                    "name": "/services/reltio/api/:tenantId/reindexActivities",
+                    "name": "/reindexActivities",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/reindexActivities",
                         "description": {
@@ -11217,7 +11206,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -11267,7 +11255,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -11922,7 +11910,7 @@
                 },
                 {
                     "id": "c5c19215-dcc8-4b3e-adf2-bd623312a4d4",
-                    "name": "/services/reltio/api/:tenantId/reindexAll",
+                    "name": "/reindexAll",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/reindexAll",
                         "description": {
@@ -11931,7 +11919,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -12017,7 +12004,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -13174,7 +13161,7 @@
                 },
                 {
                     "id": "a7125525-9d88-4043-b55f-af0192a054d0",
-                    "name": "/services/reltio/api/:tenantId/reindexInteractions",
+                    "name": "/reindexInteractions",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/reindexInteractions",
                         "description": {
@@ -13183,7 +13170,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -13242,7 +13228,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -14024,7 +14010,7 @@
                 },
                 {
                     "id": "02870637-cf40-4bc8-ade1-45435137179c",
-                    "name": "/services/reltio/api/:tenantId/reindexRelations",
+                    "name": "/reindexRelations",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/reindexRelations",
                         "description": {
@@ -14033,7 +14019,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -14073,7 +14058,7 @@
                                 {
                                     "disabled": false,
                                     "description": {
-                                        "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                        "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                         "type": "text/plain"
                                     },
                                     "key": "updateRelations",
@@ -14146,7 +14131,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -14226,7 +14211,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14378,7 +14363,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14530,7 +14515,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14682,7 +14667,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14834,7 +14819,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -14986,7 +14971,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -15128,7 +15113,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -15280,7 +15265,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -15432,7 +15417,7 @@
                                         {
                                             "disabled": false,
                                             "description": {
-                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only – does not perform rematching or update history or analytics",
+                                                "content": "If set to <i>true</i>, in addition to refreshing the relations in the tenant, the task also updates history, match tables, and the analytics layer (RI). This may interfere with normal event streaming.<br>If set to <i>false</i>, the task updates ElasticSearch relations data only \u2013 does not perform rematching or update history or analytics",
                                                 "type": "text/plain"
                                             },
                                             "key": "updateRelations",
@@ -15552,7 +15537,7 @@
             "item": [
                 {
                     "id": "88cbb1c4-032f-4db8-8c28-980d18bc4565",
-                    "name": "/services/reltio/api/:tenantId/syncToDataPipeline",
+                    "name": "/syncToDataPipeline",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/syncToDataPipeline",
                         "description": {
@@ -15561,7 +15546,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -15629,7 +15613,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16630,13 +16614,12 @@
             "item": [
                 {
                     "id": "291608f2-0b46-4ef1-8dde-5d9d1bebf847",
-                    "name": "/services/api/tenants/:tenantId/authInfo",
+                    "name": "/tenants/authInfo",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/authInfo",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -16659,7 +16642,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16890,13 +16873,12 @@
             "item": [
                 {
                     "id": "260589da-6b59-4af2-bea9-08b0aab0e6a9",
-                    "name": "/services/api/tenants/:tenantId/monitoring/_entityMonitoring",
+                    "name": "/tenants/monitoring/_entityMonitoring",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/monitoring/_entityMonitoring",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -16947,7 +16929,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17272,13 +17254,12 @@
                 },
                 {
                     "id": "e17fa08d-d5ef-4f8a-b24a-408aa9561244",
-                    "name": "/services/api/tenants/:tenantId/monitoring/_eventMonitoring",
+                    "name": "/tenants/monitoring/_eventMonitoring",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/monitoring/_eventMonitoring",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -17329,7 +17310,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17660,13 +17641,12 @@
             "item": [
                 {
                     "id": "2a923c41-693a-4337-8ea1-555f2515f27c",
-                    "name": "/services/status/tenant/:tenantId/details",
+                    "name": "/status/tenant/details",
                     "request": {
                         "name": "/services/status/tenant/:tenantId/details",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "status",
                                 "tenant",
                                 ":tenantId",
@@ -17689,7 +17669,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17822,7 +17802,7 @@
             "item": [
                 {
                     "id": "29593750-6cc5-43fd-ba8f-aa0145e7f015",
-                    "name": "/oauth/token",
+                    "name": "/token",
                     "request": {
                         "name": "/oauth/token",
                         "description": {
@@ -18161,7 +18141,7 @@
             "item": [
                 {
                     "id": "ee9b0b3f-8e5b-4751-b3e4-d0f2a18f1a2a",
-                    "name": "/services/workflow-adapter/workflow/deployments",
+                    "name": "/workflow-adapter/workflow/deployments",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/deployments",
                         "description": {
@@ -18170,7 +18150,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 "deployments"
@@ -18743,7 +18722,7 @@
                 },
                 {
                     "id": "539517b1-332d-4be2-98a3-30bc3a23c4aa",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/assignee",
+                    "name": "/workflow-adapter/workflow/assignee",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/assignee",
                         "description": {
@@ -18752,7 +18731,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -18765,7 +18743,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19121,7 +19099,7 @@
                 },
                 {
                     "id": "0b800d27-9102-4a07-8942-939edf047c05",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/groupTasks",
+                    "name": "/workflow-adapter/workflow/groupTasks",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/groupTasks",
                         "description": {
@@ -19130,7 +19108,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -19143,7 +19120,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19499,7 +19476,7 @@
                 },
                 {
                     "id": "86b1cdb5-44ae-4abf-aa93-449d946a69f0",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/groupTasks/_withFilter",
+                    "name": "/workflow-adapter/workflow/groupTasks/_withFilter",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/groupTasks/_withFilter",
                         "description": {
@@ -19508,7 +19485,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -19522,7 +19498,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -19883,7 +19859,7 @@
                 },
                 {
                     "id": "be73155d-9caa-4eaa-93e3-6b3b287bcbde",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jarDeployments",
+                    "name": "/workflow-adapter/workflow/jarDeployments",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jarDeployments",
                         "description": {
@@ -19892,7 +19868,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -19905,7 +19880,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20183,7 +20158,7 @@
                 },
                 {
                     "id": "e681e0dc-206d-4d08-b7c5-8f9c320ee6ce",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jarDeployments/:name",
+                    "name": "/workflow-adapter/workflow/jarDeployments/:name",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jarDeployments/:name",
                         "description": {
@@ -20192,7 +20167,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -20206,7 +20180,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20499,7 +20473,7 @@
                 },
                 {
                     "id": "f8992965-4c92-48e9-af18-0d64926f6a02",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jarDeployments/:name",
+                    "name": "/workflow-adapter/workflow/jarDeployments/:name",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jarDeployments/:name",
                         "description": {
@@ -20508,7 +20482,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -20522,7 +20495,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -20815,7 +20788,7 @@
                 },
                 {
                     "id": "281eb932-1c40-42ca-af32-4692f64cbb1a",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jobs",
+                    "name": "/workflow-adapter/workflow/jobs",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jobs",
                         "description": {
@@ -20824,7 +20797,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -20837,7 +20809,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21067,7 +21039,7 @@
                 },
                 {
                     "id": "e72739ca-81a8-4718-b881-34b1934ed852",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jobs/actions",
+                    "name": "/workflow-adapter/workflow/jobs/actions",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jobs/actions",
                         "description": {
@@ -21076,7 +21048,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -21090,7 +21061,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21389,7 +21360,7 @@
                 },
                 {
                     "id": "b6b5ee7d-4927-4dcc-8599-0d8f9b19e22b",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jobs/syncBusinessProcessData",
+                    "name": "/workflow-adapter/workflow/jobs/syncBusinessProcessData",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jobs/syncBusinessProcessData",
                         "description": {
@@ -21398,7 +21369,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -21412,7 +21382,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -21711,7 +21681,7 @@
                 },
                 {
                     "id": "5b4f2840-d2ee-4cab-8441-0c820d60a6c6",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jobs/terminateProcessInstances",
+                    "name": "/workflow-adapter/workflow/jobs/terminateProcessInstances",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jobs/terminateProcessInstances",
                         "description": {
@@ -21720,7 +21690,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -21734,7 +21703,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -22033,7 +22002,7 @@
                 },
                 {
                     "id": "666a6d4a-38e3-44e0-848e-723b4ff9baa5",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jobs/updateTasks",
+                    "name": "/workflow-adapter/workflow/jobs/updateTasks",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jobs/updateTasks",
                         "description": {
@@ -22042,7 +22011,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -22056,7 +22024,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -22355,7 +22323,7 @@
                 },
                 {
                     "id": "81fe9af2-c678-4bf9-9a15-1de43f099baa",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/jobs/:jobId",
+                    "name": "/workflow-adapter/workflow/jobs/:jobId",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/jobs/:jobId",
                         "description": {
@@ -22364,7 +22332,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -22378,7 +22345,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -22622,7 +22589,7 @@
                 },
                 {
                     "id": "4fece22c-45f5-4b1e-a1f6-0c340e985ec6",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/listJars",
+                    "name": "/workflow-adapter/workflow/listJars",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/listJars",
                         "description": {
@@ -22631,7 +22598,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -22644,7 +22610,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -23000,7 +22966,7 @@
                 },
                 {
                     "id": "c0af9caf-a7ed-4030-bf3f-605825b9a84e",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/operations",
+                    "name": "/workflow-adapter/workflow/operations",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/operations",
                         "description": {
@@ -23009,7 +22975,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -23022,7 +22987,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -23300,13 +23265,12 @@
                 },
                 {
                     "id": "5e1cb8a4-ff8c-4d27-afcc-5416a138cf4a",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processCount",
+                    "name": "/workflow-adapter/workflow/processCount",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processCount",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -23338,7 +23302,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -23644,7 +23608,7 @@
                 },
                 {
                     "id": "6fbf4286-5ba3-4fad-839c-4c9714959364",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processDefinitions",
+                    "name": "/workflow-adapter/workflow/processDefinitions",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processDefinitions",
                         "description": {
@@ -23653,7 +23617,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -23685,7 +23648,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -24058,7 +24021,7 @@
                 },
                 {
                     "id": "07c456d4-5d2a-46c3-bac2-a769e7d9c159",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processDefinitions/:processType",
+                    "name": "/workflow-adapter/workflow/processDefinitions/:processType",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processDefinitions/:processType",
                         "description": {
@@ -24067,7 +24030,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -24081,7 +24043,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -24364,7 +24326,7 @@
                 },
                 {
                     "id": "28565ab3-9e11-4e14-94d0-1b26a4e3c47d",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processDefinitions/:processType",
+                    "name": "/workflow-adapter/workflow/processDefinitions/:processType",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processDefinitions/:processType",
                         "description": {
@@ -24373,7 +24335,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -24387,7 +24348,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -24680,7 +24641,7 @@
                 },
                 {
                     "id": "921397c9-c775-4043-b84a-295512672023",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances",
+                    "name": "/workflow-adapter/workflow/processInstances",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances",
                         "description": {
@@ -24689,7 +24650,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -24702,7 +24662,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -25058,13 +25018,12 @@
                 },
                 {
                     "id": "a22b4ab6-f2b4-4b01-a5f0-8bbc392f4b46",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances",
+                    "name": "/workflow-adapter/workflow/processInstances",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -25087,7 +25046,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -25422,7 +25381,7 @@
                 },
                 {
                     "id": "d703ee5e-10cd-443e-a1a0-4b086a738beb",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/_generateFromQuery",
+                    "name": "/workflow-adapter/workflow/processInstances/_generateFromQuery",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/_generateFromQuery",
                         "description": {
@@ -25431,7 +25390,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -25455,7 +25413,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -25938,7 +25896,7 @@
                 },
                 {
                     "id": "3e78630c-75e8-42c4-882e-aafe82505e81",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/_search",
+                    "name": "/workflow-adapter/workflow/processInstances/_search",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/_search",
                         "description": {
@@ -25947,7 +25905,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -25961,7 +25918,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -26322,7 +26279,7 @@
                 },
                 {
                     "id": "ff53dd15-4314-4cdc-90d8-9b26847acbf1",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId",
+                    "name": "/workflow-adapter/workflow/processInstances/:processInstanceId",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId",
                         "description": {
@@ -26331,7 +26288,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -26373,7 +26329,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -26806,7 +26762,7 @@
                 },
                 {
                     "id": "647b11ba-6a2d-4140-8ba9-a88455791dfd",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId",
+                    "name": "/workflow-adapter/workflow/processInstances/:processInstanceId",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId",
                         "description": {
@@ -26815,7 +26771,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -26829,7 +26784,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -27122,7 +27077,7 @@
                 },
                 {
                     "id": "5a83ce09-160d-4ba2-a1e3-330f8143e118",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId/_activate",
+                    "name": "/workflow-adapter/workflow/processInstances/:processInstanceId/_activate",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId/_activate",
                         "description": {
@@ -27131,7 +27086,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -27146,7 +27100,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -27444,7 +27398,7 @@
                 },
                 {
                     "id": "95e47032-d9e3-4ff4-ba8a-f7b6d2c31f16",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId/_comment",
+                    "name": "/workflow-adapter/workflow/processInstances/:processInstanceId/_comment",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId/_comment",
                         "description": {
@@ -27453,7 +27407,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -27468,7 +27421,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -27766,7 +27719,7 @@
                 },
                 {
                     "id": "4c86fde0-b0c9-49bb-8646-b5f7bf5a87a4",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId/_suspend",
+                    "name": "/workflow-adapter/workflow/processInstances/:processInstanceId/_suspend",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/processInstances/:processInstanceId/_suspend",
                         "description": {
@@ -27775,7 +27728,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -27790,7 +27742,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -28088,7 +28040,7 @@
                 },
                 {
                     "id": "b6a118dd-2661-43d7-af9d-f882e6050ea0",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks",
+                    "name": "/workflow-adapter/workflow/tasks",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks",
                         "description": {
@@ -28097,7 +28049,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -28156,7 +28107,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -28664,7 +28615,7 @@
                 },
                 {
                     "id": "855403ef-30ec-41a2-9d2f-68d783ef2df7",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks",
+                    "name": "/workflow-adapter/workflow/tasks",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks",
                         "description": {
@@ -28673,7 +28624,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -28686,7 +28636,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -29042,7 +28992,7 @@
                 },
                 {
                     "id": "4fd9db6d-c6c8-4b23-831d-62b38e16bda0",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks",
+                    "name": "/workflow-adapter/workflow/tasks",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks",
                         "description": {
@@ -29051,7 +29001,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -29074,7 +29023,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -29409,7 +29358,7 @@
                 },
                 {
                     "id": "57e769c2-e9d6-4c18-ac83-f1d5d6c09041",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/_validate",
+                    "name": "/workflow-adapter/workflow/tasks/_validate",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/_validate",
                         "description": {
@@ -29418,7 +29367,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -29432,7 +29380,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -29793,7 +29741,7 @@
                 },
                 {
                     "id": "11cc3541-2c76-435c-a143-1157e281de18",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/_withFilter",
+                    "name": "/workflow-adapter/workflow/tasks/_withFilter",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/_withFilter",
                         "description": {
@@ -29802,7 +29750,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -29816,7 +29763,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -30177,7 +30124,7 @@
                 },
                 {
                     "id": "61f03ed2-1b64-4462-be44-1892b725cce3",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/assignees",
+                    "name": "/workflow-adapter/workflow/tasks/assignees",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/assignees",
                         "description": {
@@ -30186,7 +30133,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -30200,7 +30146,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -30499,7 +30445,7 @@
                 },
                 {
                     "id": "cc40ad0c-c7c7-4246-84f4-614ee53ab16a",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/creators",
+                    "name": "/workflow-adapter/workflow/tasks/creators",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/creators",
                         "description": {
@@ -30508,7 +30454,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -30522,7 +30467,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -30821,7 +30766,7 @@
                 },
                 {
                     "id": "7005546d-88c1-46d2-90cf-04553d980599",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/history",
+                    "name": "/workflow-adapter/workflow/tasks/history",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/history",
                         "description": {
@@ -30830,7 +30775,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -30844,7 +30788,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -31205,7 +31149,7 @@
                 },
                 {
                     "id": "0b95a8ac-9a63-416f-aa59-1e33070bb727",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/history/variables",
+                    "name": "/workflow-adapter/workflow/tasks/history/variables",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/history/variables",
                         "description": {
@@ -31214,7 +31158,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -31229,7 +31172,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -31532,7 +31475,7 @@
                 },
                 {
                     "id": "a8e7caf5-c053-4c56-8fb5-e9cb6a0af393",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/variables",
+                    "name": "/workflow-adapter/workflow/tasks/variables",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/variables",
                         "description": {
@@ -31541,7 +31484,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -31555,7 +31497,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -31854,7 +31796,7 @@
                 },
                 {
                     "id": "0c690ee5-939e-46cf-9848-e4efa4c516c6",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId",
+                    "name": "/workflow-adapter/workflow/tasks/:taskId",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId",
                         "description": {
@@ -31863,7 +31805,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -31896,7 +31837,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -32284,7 +32225,7 @@
                 },
                 {
                     "id": "069c7717-e241-4735-8e11-d74405f21a2e",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId",
+                    "name": "/workflow-adapter/workflow/tasks/:taskId",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId",
                         "description": {
@@ -32293,7 +32234,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -32307,7 +32247,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -32678,7 +32618,7 @@
                 },
                 {
                     "id": "7bac0dbb-e603-4b60-a0b0-be64171ce0c7",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId/_action",
+                    "name": "/workflow-adapter/workflow/tasks/:taskId/_action",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId/_action",
                         "description": {
@@ -32687,7 +32627,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -32702,7 +32641,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -33078,7 +33017,7 @@
                 },
                 {
                     "id": "a4537a3b-e702-4bce-b951-0c9c83ea5877",
-                    "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId/_validate",
+                    "name": "/workflow-adapter/workflow/tasks/:taskId/_validate",
                     "request": {
                         "name": "/services/workflow-adapter/workflow/:tenantId/tasks/:taskId/_validate",
                         "description": {
@@ -33087,7 +33026,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "workflow-adapter",
                                 "workflow",
                                 ":tenantId",
@@ -33102,7 +33040,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -33406,7 +33344,7 @@
             "item": [
                 {
                     "id": "26c31444-a9ac-4965-8275-4178067c559c",
-                    "name": "/services/api/tenants/:tenantId/adapters/:adapterName/actions",
+                    "name": "/tenants/adapters/:adapterName/actions",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/adapters/:adapterName/actions",
                         "description": {
@@ -33415,7 +33353,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -33440,7 +33377,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -33632,7 +33569,7 @@
                 },
                 {
                     "id": "03d2d5fc-63d0-4e01-8584-b311b88cf42c",
-                    "name": "/services/api/tenants/:tenantId/adapters/:adapterName/actions/:actionType",
+                    "name": "/tenants/adapters/:adapterName/actions/:actionType",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/adapters/:adapterName/actions/:actionType",
                         "description": {
@@ -33641,7 +33578,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -33657,7 +33593,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -33890,13 +33826,12 @@
             "item": [
                 {
                     "id": "50881904-acd3-43c1-9fe8-23b5d9e9f6f5",
-                    "name": "/services/api/tenants/:tenantId/adapters/:adapterName/scripts",
+                    "name": "/tenants/adapters/:adapterName/scripts",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/adapters/:adapterName/scripts",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -33921,7 +33856,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -34545,13 +34480,12 @@
             "item": [
                 {
                     "id": "fed64781-b203-4b43-8fb1-88ebe392314d",
-                    "name": "/services/api/tenants/:tenantId/adapters/:adapterName/secrets",
+                    "name": "/tenants/adapters/:adapterName/secrets",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/adapters/:adapterName/secrets",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -34566,7 +34500,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -34769,13 +34703,12 @@
                 },
                 {
                     "id": "6e89b5e7-9162-487b-9681-5bc386c6e7ec",
-                    "name": "/services/api/tenants/:tenantId/adapters/:adapterName/secrets",
+                    "name": "/tenants/adapters/:adapterName/secrets",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/adapters/:adapterName/secrets",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -34790,7 +34723,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -35004,13 +34937,12 @@
                 },
                 {
                     "id": "0178d2d9-8fd3-49e6-b5a4-e373d09cbda0",
-                    "name": "/services/api/tenants/:tenantId/adapters/:adapterName/secrets",
+                    "name": "/tenants/adapters/:adapterName/secrets",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/adapters/:adapterName/secrets",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -35025,7 +34957,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -35234,13 +35166,12 @@
             "item": [
                 {
                     "id": "e1d38df7-d0f6-43b4-8e07-33c3e9e2ebbd",
-                    "name": "/services/api/tenants/:tenantId/adapters/:adapterName/validate",
+                    "name": "/tenants/adapters/:adapterName/validate",
                     "request": {
                         "name": "/services/api/tenants/:tenantId/adapters/:adapterName/validate",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "tenants",
                                 ":tenantId",
@@ -35255,7 +35186,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -35452,7 +35383,7 @@
             "item": [
                 {
                     "id": "4abf0528-3cfa-4aeb-9d0c-d394141b337c",
-                    "name": "/services/oauth/audit/export",
+                    "name": "/audit/export",
                     "request": {
                         "name": "/services/oauth/audit/export",
                         "description": {
@@ -35461,7 +35392,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "audit",
                                 "export"
@@ -35776,7 +35706,7 @@
             "item": [
                 {
                     "id": "1ff19554-21de-498b-b7d4-e221e6aaab45",
-                    "name": "/services/oauth/oauth/users",
+                    "name": "/users",
                     "request": {
                         "name": "/services/oauth/oauth/users",
                         "description": {
@@ -35785,7 +35715,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users"
@@ -35917,7 +35846,7 @@
                 },
                 {
                     "id": "c18ad052-50e1-44f8-9044-b6a073d638aa",
-                    "name": "/services/oauth/oauth/users",
+                    "name": "/users",
                     "request": {
                         "name": "/services/oauth/oauth/users",
                         "description": {
@@ -35926,7 +35855,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users"
@@ -36163,7 +36091,7 @@
                 },
                 {
                     "id": "3011cb0b-c6c2-4727-95ff-19edbcfcfbf1",
-                    "name": "/services/oauth/oauth/users/groups/:groupId",
+                    "name": "/users/groups/:groupId",
                     "request": {
                         "name": "/services/oauth/oauth/users/groups/:groupId",
                         "description": {
@@ -36172,7 +36100,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -36351,7 +36278,7 @@
                 },
                 {
                     "id": "ecf04e08-02fe-4e12-b933-3719b80741f5",
-                    "name": "/services/oauth/oauth/users/tenants/:tenantId",
+                    "name": "/users/tenants",
                     "request": {
                         "name": "/services/oauth/oauth/users/tenants/:tenantId",
                         "description": {
@@ -36360,7 +36287,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -36374,7 +36300,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "|scW`W$",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -36539,7 +36465,7 @@
                 },
                 {
                     "id": "6ed8f048-c66a-4f81-9b63-5645f7381a6f",
-                    "name": "/services/oauth/oauth/users/:username",
+                    "name": "/users/:username",
                     "request": {
                         "name": "/services/oauth/oauth/users/:username",
                         "description": {
@@ -36548,7 +36474,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -36796,7 +36721,7 @@
                 },
                 {
                     "id": "9d265a2c-ecc8-4b32-be6a-a2a5a094ae32",
-                    "name": "/services/oauth/oauth/users/:username",
+                    "name": "/users/:username",
                     "request": {
                         "name": "/services/oauth/oauth/users/:username",
                         "description": {
@@ -36805,7 +36730,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -37274,7 +37198,7 @@
                 },
                 {
                     "id": "fcee815b-e627-42b6-8554-4bc660465eb4",
-                    "name": "/services/oauth/oauth/users/:username",
+                    "name": "/users/:username",
                     "request": {
                         "name": "/services/oauth/oauth/users/:username",
                         "description": {
@@ -37283,7 +37207,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -37481,7 +37404,7 @@
                 },
                 {
                     "id": "3ac948f5-f890-45d2-a5c6-d3b02296c4b0",
-                    "name": "/services/oauth/oauth/users/:username/groups",
+                    "name": "/users/:username/groups",
                     "request": {
                         "name": "/services/oauth/oauth/users/:username/groups",
                         "description": {
@@ -37490,7 +37413,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -37693,7 +37615,7 @@
                 },
                 {
                     "id": "49105a59-9ffc-4c2f-bcff-cc4b8e48c157",
-                    "name": "/services/oauth/oauth/users/:username/groups",
+                    "name": "/users/:username/groups",
                     "request": {
                         "name": "/services/oauth/oauth/users/:username/groups",
                         "description": {
@@ -37702,7 +37624,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -38083,7 +38004,7 @@
                 },
                 {
                     "id": "f07bab7c-a16f-43e9-8a1d-57cf17061e9d",
-                    "name": "/services/oauth/oauth/users/:username/revoketokens",
+                    "name": "/users/:username/revoketokens",
                     "request": {
                         "name": "/services/oauth/oauth/users/:username/revoketokens",
                         "description": {
@@ -38092,7 +38013,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "users",
@@ -38341,7 +38261,7 @@
             "item": [
                 {
                     "id": "924e6794-e664-43fe-a7e8-432aec56245a",
-                    "name": "/services/export/:tenantId",
+                    "name": "/export",
                     "request": {
                         "name": "/services/export/:tenantId",
                         "description": {
@@ -38350,7 +38270,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "export",
                                 ":tenantId"
                             ],
@@ -38361,7 +38280,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -38633,7 +38552,7 @@
                 },
                 {
                     "id": "f464b43d-bda4-4898-9845-dd86f117319c",
-                    "name": "/services/export/:tenantId/decryptUrl",
+                    "name": "/export/decryptUrl",
                     "request": {
                         "name": "/services/export/:tenantId/decryptUrl",
                         "description": {
@@ -38642,7 +38561,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "export",
                                 ":tenantId",
                                 "decryptUrl"
@@ -38654,7 +38572,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -38947,5 +38865,6 @@
             "content": "Monitor and run jobs on your tenant.\n\nContact Support:\n Name: Reltio\n Email: support@reltio.com",
             "type": "text/plain"
         }
-    }
+    },
+    "auth": "oath2"
 }
