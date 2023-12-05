@@ -1,6 +1,7 @@
 # ReltioApiCollection
 
 TODO:
-- Clean "services", "reltio" etc from endpoint titles
+- Clean "services", "reltio" etc from endpoint titles {Done}
 - Change oath endpoints base url to "https://auth.reltio.com/oauth"
-- Set parameters to off by default
+- Set non required parameters to off by default
+- Fix double "oauth" in some paths
