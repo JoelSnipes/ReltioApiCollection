@@ -23,6 +23,9 @@ jobs:
       - name: make directory if not there
         run: mkdir -p collections/generated 
 
+      - name: make directory if not there
+        run: mkdir -p openApiSpec        
+
       - name: setup python
         uses: actions/setup-python@v1
         with:
