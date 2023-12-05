@@ -6,7 +6,7 @@
             "item": [
                 {
                     "id": "cf4d6e91-2381-452c-a2d6-31c7c2a434e3",
-                    "name": "/services/dtss/entities",
+                    "name": "/dtss/entities",
                     "request": {
                         "name": "/services/dtss/entities",
                         "description": {
@@ -15,7 +15,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities"
                             ],
@@ -263,7 +262,7 @@
                 },
                 {
                     "id": "db353554-25ff-427d-ada4-7190ec3ed563",
-                    "name": "/services/dtss/entities",
+                    "name": "/dtss/entities",
                     "request": {
                         "name": "/services/dtss/entities",
                         "description": {
@@ -272,7 +271,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities"
                             ],
@@ -418,7 +416,7 @@
                 },
                 {
                     "id": "e6ad70f5-f491-4a11-893a-d8abc61e81e8",
-                    "name": "/services/dtss/entities/_import",
+                    "name": "/dtss/entities/_import",
                     "request": {
                         "name": "/services/dtss/entities/_import",
                         "description": {
@@ -427,7 +425,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_import"
@@ -881,7 +878,7 @@
                 },
                 {
                     "id": "10e7f2a9-499b-43ad-9bd3-d34261cd8195",
-                    "name": "/services/dtss/entities/_matchesForCtEntities",
+                    "name": "/dtss/entities/_matchesForCtEntities",
                     "request": {
                         "name": "/services/dtss/entities/_matchesForCtEntities",
                         "description": {
@@ -890,7 +887,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_matchesForCtEntities"
@@ -1378,7 +1374,7 @@
                 },
                 {
                     "id": "a72bb9ae-e870-4712-a0b9-984cecebd02c",
-                    "name": "/services/dtss/entities/_merge",
+                    "name": "/dtss/entities/_merge",
                     "request": {
                         "name": "/services/dtss/entities/_merge",
                         "description": {
@@ -1387,7 +1383,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_merge"
@@ -1904,7 +1899,7 @@
                 },
                 {
                     "id": "cdf67838-0ea8-49b1-aa3e-f71bb8c72d07",
-                    "name": "/services/dtss/entities/_notMatch",
+                    "name": "/dtss/entities/_notMatch",
                     "request": {
                         "name": "/services/dtss/entities/_notMatch",
                         "description": {
@@ -1913,7 +1908,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_notMatch"
@@ -2055,7 +2049,7 @@
                 },
                 {
                     "id": "48f3eb6b-d90b-4f07-93be-87460f08d213",
-                    "name": "/services/dtss/entities/_notMatch",
+                    "name": "/dtss/entities/_notMatch",
                     "request": {
                         "name": "/services/dtss/entities/_notMatch",
                         "description": {
@@ -2064,7 +2058,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_notMatch"
@@ -2356,7 +2349,7 @@
                 },
                 {
                     "id": "5d4f7ffd-525e-4a08-94eb-3ce8976a9fa1",
-                    "name": "/services/dtss/entities/_notMatch",
+                    "name": "/dtss/entities/_notMatch",
                     "request": {
                         "name": "/services/dtss/entities/_notMatch",
                         "description": {
@@ -2365,7 +2358,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_notMatch"
@@ -2582,7 +2574,7 @@
                 },
                 {
                     "id": "af7b8b93-3410-4f7a-a696-23f9fe2750b8",
-                    "name": "/services/dtss/entities/_unmerge",
+                    "name": "/dtss/entities/_unmerge",
                     "request": {
                         "name": "/services/dtss/entities/_unmerge",
                         "description": {
@@ -2591,7 +2583,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_unmerge"
@@ -2790,7 +2781,7 @@
                 },
                 {
                     "id": "cf5c99ff-4b8b-4d62-93dd-38e2546d9d75",
-                    "name": "/services/dtss/entities/_verifyMatches",
+                    "name": "/dtss/entities/_verifyMatches",
                     "request": {
                         "name": "/services/dtss/entities/_verifyMatches",
                         "description": {
@@ -2799,7 +2790,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "entities",
                                 "_verifyMatches"
@@ -3028,7 +3018,7 @@
                 },
                 {
                     "id": "85a43503-0e1b-4fce-aaa4-de628db88d5b",
-                    "name": "/services/dtss/relations/_importRelation",
+                    "name": "/dtss/relations/_importRelation",
                     "request": {
                         "name": "/services/dtss/relations/_importRelation",
                         "description": {
@@ -3037,7 +3027,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "relations",
                                 "_importRelation"
@@ -3425,7 +3414,7 @@
                 },
                 {
                     "id": "cf847dbe-8855-4d25-9cff-fa35ca8ac11a",
-                    "name": "/services/dtss/relations/_importRelations",
+                    "name": "/dtss/relations/_importRelations",
                     "request": {
                         "name": "/services/dtss/relations/_importRelations",
                         "description": {
@@ -3434,7 +3423,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dtss",
                                 "relations",
                                 "_importRelations"
@@ -3846,7 +3834,7 @@
             "item": [
                 {
                     "id": "8a0d3d5f-7f0b-43a7-9e10-cfeb63e009a7",
-                    "name": "/services/dnb/getDetailedProfile",
+                    "name": "/dnb/getDetailedProfile",
                     "request": {
                         "name": "/services/dnb/getDetailedProfile",
                         "description": {
@@ -3855,7 +3843,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dnb",
                                 "getDetailedProfile"
                             ],
@@ -4103,7 +4090,7 @@
                 },
                 {
                     "id": "0ea1e8e0-4c85-4a23-9963-23f01f939ab3",
-                    "name": "/services/dnb/getFamilyTree",
+                    "name": "/dnb/getFamilyTree",
                     "request": {
                         "name": "/services/dnb/getFamilyTree",
                         "description": {
@@ -4112,7 +4099,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dnb",
                                 "getFamilyTree"
                             ],
@@ -4342,7 +4328,7 @@
                 },
                 {
                     "id": "c5a4f28f-564b-45ce-b90c-125b7f35faa0",
-                    "name": "/services/dnb/getOrgMatch",
+                    "name": "/dnb/getOrgMatch",
                     "request": {
                         "name": "/services/dnb/getOrgMatch",
                         "description": {
@@ -4351,7 +4337,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "dnb",
                                 "getOrgMatch"
                             ],
@@ -6094,7 +6079,7 @@
                     "request": {
                         "name": "//dnb/monitoring/background",
                         "description": {
-                            "content": "A monitoring background job is a process that lists the event's destination, reads event files and notification files, and uploads them to the corresponding Reltio tenant. The destination, for now, is the S3 bucket only. The monitoring background job can be started manually to immediately process incoming data or can be scheduled using a cron expression.<ul type=\"square\"><li>Cron’s scheduled background monitoring process will automatically calculate the new files on each iteration by searching for previously started a job and extract max file timestamp from them which will be used as a starting point for the new job</li><li>Monitoring background job started without cron expression will treat all existing files in the destination location as new and process them</li><ul>",
+                            "content": "A monitoring background job is a process that lists the event's destination, reads event files and notification files, and uploads them to the corresponding Reltio tenant. The destination, for now, is the S3 bucket only. The monitoring background job can be started manually to immediately process incoming data or can be scheduled using a cron expression.<ul type=\"square\"><li>Cron\u2019s scheduled background monitoring process will automatically calculate the new files on each iteration by searching for previously started a job and extract max file timestamp from them which will be used as a starting point for the new job</li><li>Monitoring background job started without cron expression will treat all existing files in the destination location as new and process them</li><ul>",
                             "type": "text/plain"
                         },
                         "url": {
@@ -7140,7 +7125,7 @@
                     "request": {
                         "name": "//dnb/monitoring/registration",
                         "description": {
-                            "content": "Removes the entity’s DUNS number from the DnB monitoring registration.  The entity must have a DUNS number. This is on demand API call and can be configured to be called from Reltio UI using a button click",
+                            "content": "Removes the entity\u2019s DUNS number from the DnB monitoring registration.  The entity must have a DUNS number. This is on demand API call and can be configured to be called from Reltio UI using a button click",
                             "type": "text/plain"
                         },
                         "url": {
@@ -7383,5 +7368,6 @@
             "content": "Contact Support:\n Name: Reltio\n Email: support@reltio.com",
             "type": "text/plain"
         }
-    }
+    },
+    "auth": "oath2"
 }

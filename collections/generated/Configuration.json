@@ -6,7 +6,7 @@
             "item": [
                 {
                     "id": "38f37a38-9c8e-4afd-b9f0-9bf3f1ec1a21",
-                    "name": "/services/reltio/api/:tenantId/configuration",
+                    "name": "/configuration",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/configuration",
                         "description": {
@@ -15,7 +15,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -28,7 +27,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -396,7 +395,7 @@
                 },
                 {
                     "id": "ad17d512-5e88-4b6b-ad4f-437c81c2cd2f",
-                    "name": "/services/reltio/api/:tenantId/configuration",
+                    "name": "/configuration",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/configuration",
                         "description": {
@@ -405,7 +404,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -418,7 +416,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -918,7 +916,7 @@
                 },
                 {
                     "id": "cff50553-b582-4737-b777-81860ae291a6",
-                    "name": "/services/reltio/api/:tenantId/configuration/_noInheritance",
+                    "name": "/configuration/_noInheritance",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/configuration/_noInheritance",
                         "description": {
@@ -927,7 +925,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -941,7 +938,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1318,7 +1315,7 @@
                 },
                 {
                     "id": "6a3374ca-de51-4731-be82-1b0445452fb8",
-                    "name": "/services/reltio/api/:tenantId/configuration/entityTypes",
+                    "name": "/configuration/entityTypes",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/configuration/entityTypes",
                         "description": {
@@ -1327,7 +1324,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -1341,7 +1337,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -1718,7 +1714,7 @@
                 },
                 {
                     "id": "39e0dc75-9213-4e8e-88a5-2d0d129137d8",
-                    "name": "/services/reltio/api/:tenantId/configuration/relationTypes",
+                    "name": "/configuration/relationTypes",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/configuration/relationTypes",
                         "description": {
@@ -1727,7 +1723,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -1741,7 +1736,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -2118,7 +2113,7 @@
                 },
                 {
                     "id": "3d8ae06e-9d0c-4f29-87d9-5ad2879daa6b",
-                    "name": "/services/reltio/api/:tenantId/configuration/sources",
+                    "name": "/configuration/sources",
                     "request": {
                         "name": "/services/reltio/api/:tenantId/configuration/sources",
                         "description": {
@@ -2127,7 +2122,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "api",
                                 ":tenantId",
@@ -2141,7 +2135,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -2650,7 +2644,7 @@
                 },
                 {
                     "id": "9462769b-0563-49e8-a9bb-9a15b23beb71",
-                    "name": "/services/reltio/tenants/:tenantId/cleanse",
+                    "name": "/tenants/cleanse",
                     "request": {
                         "name": "/services/reltio/tenants/:tenantId/cleanse",
                         "description": {
@@ -2659,7 +2653,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tenants",
                                 ":tenantId",
@@ -2672,7 +2665,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -3172,7 +3165,7 @@
                 },
                 {
                     "id": "7c4781be-d5b9-4a62-8023-b70e38d57ece",
-                    "name": "/services/reltio/tools/matching/:tenantId/matchGroupFactorsSummary",
+                    "name": "/tools/matching/matchGroupFactorsSummary",
                     "request": {
                         "name": "/services/reltio/tools/matching/:tenantId/matchGroupFactorsSummary",
                         "description": {
@@ -3181,7 +3174,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 "matching",
@@ -3241,7 +3233,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -4032,7 +4024,7 @@
                 },
                 {
                     "id": "ebcd00a6-df6f-482a-aa01-a0f3017e10f6",
-                    "name": "/services/reltio/tools/matching/:tenantId/tokenizationSchemes/:entityType",
+                    "name": "/tools/matching/tokenizationSchemes/:entityType",
                     "request": {
                         "name": "/services/reltio/tools/matching/:tenantId/tokenizationSchemes/:entityType",
                         "description": {
@@ -4041,7 +4033,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 "matching",
@@ -4093,7 +4084,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -4822,7 +4813,7 @@
                 },
                 {
                     "id": "bd260729-4299-4ec2-94b4-1e2b07e99de9",
-                    "name": "/services/reltio/tools/matching/:tenantId/validateRegexpDictionaries",
+                    "name": "/tools/matching/validateRegexpDictionaries",
                     "request": {
                         "name": "/services/reltio/tools/matching/:tenantId/validateRegexpDictionaries",
                         "description": {
@@ -4831,7 +4822,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "tools",
                                 "matching",
@@ -4845,7 +4835,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5228,7 +5218,7 @@
             "item": [
                 {
                     "id": "911a122e-782b-4559-b4db-d4b4460c7023",
-                    "name": "/services/reltio/permissions/:tenantId/_getAccessRoles",
+                    "name": "/permissions/_getAccessRoles",
                     "request": {
                         "name": "/services/reltio/permissions/:tenantId/_getAccessRoles",
                         "description": {
@@ -5237,7 +5227,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "reltio",
                                 "permissions",
                                 ":tenantId",
@@ -5260,7 +5249,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5494,7 +5483,7 @@
             "item": [
                 {
                     "id": "0ecd92b4-6b06-44d2-b9e5-6fc85a0b84fc",
-                    "name": "/services/api/:tenantId/dataValidationFunctions",
+                    "name": "/dataValidationFunctions",
                     "request": {
                         "name": "/services/api/:tenantId/dataValidationFunctions",
                         "description": {
@@ -5503,7 +5492,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions"
@@ -5515,7 +5503,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5741,7 +5729,7 @@
                 },
                 {
                     "id": "aea4f730-3035-4b8c-b877-8316b29a61d2",
-                    "name": "/services/api/:tenantId/dataValidationFunctions/:functionURI",
+                    "name": "/dataValidationFunctions/:functionURI",
                     "request": {
                         "name": "/services/api/:tenantId/dataValidationFunctions/:functionURI",
                         "description": {
@@ -5750,7 +5738,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -5763,7 +5750,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -5958,7 +5945,7 @@
                 },
                 {
                     "id": "8ec436dc-98b0-48c6-903a-f292f6a820b3",
-                    "name": "/services/api/:tenantId/dataValidationFunctions/:functionURI",
+                    "name": "/dataValidationFunctions/:functionURI",
                     "request": {
                         "name": "/services/api/:tenantId/dataValidationFunctions/:functionURI",
                         "description": {
@@ -5967,7 +5954,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -5980,7 +5966,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6346,7 +6332,7 @@
                 },
                 {
                     "id": "e1453dfc-4f35-4367-ae33-1ad73cc060f4",
-                    "name": "/services/api/:tenantId/dataValidationFunctions/:functionURI",
+                    "name": "/dataValidationFunctions/:functionURI",
                     "request": {
                         "name": "/services/api/:tenantId/dataValidationFunctions/:functionURI",
                         "description": {
@@ -6355,7 +6341,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -6368,7 +6353,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6563,7 +6548,7 @@
                 },
                 {
                     "id": "e86b4587-ac59-47c0-b205-8a7b135b5697",
-                    "name": "/services/api/:tenantId/dataValidationFunctions/:objectType/:object",
+                    "name": "/dataValidationFunctions/:objectType/:object",
                     "request": {
                         "name": "/services/api/:tenantId/dataValidationFunctions/:objectType/:object",
                         "description": {
@@ -6572,7 +6557,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -6586,7 +6570,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -6840,7 +6824,7 @@
                 },
                 {
                     "id": "424783aa-fe12-4d13-9400-102a301dc3e2",
-                    "name": "/services/api/:tenantId/dataValidationFunctions/:objectType/:object",
+                    "name": "/dataValidationFunctions/:objectType/:object",
                     "request": {
                         "name": "/services/api/:tenantId/dataValidationFunctions/:objectType/:object",
                         "description": {
@@ -6849,7 +6833,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -6863,7 +6846,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7182,7 +7165,7 @@
                 },
                 {
                     "id": "3eee6e67-f411-411d-ba57-5b5ac838b94b",
-                    "name": "/services/api/:tenantId/dataValidationFunctions/:objectType/:object",
+                    "name": "/dataValidationFunctions/:objectType/:object",
                     "request": {
                         "name": "/services/api/:tenantId/dataValidationFunctions/:objectType/:object",
                         "description": {
@@ -7191,7 +7174,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "dataValidationFunctions",
@@ -7205,7 +7187,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7465,7 +7447,7 @@
             "item": [
                 {
                     "id": "5178c0d5-428a-4135-af96-8136c34e168a",
-                    "name": "/services/api/:tenantId/actions",
+                    "name": "/actions",
                     "request": {
                         "name": "/services/api/:tenantId/actions",
                         "description": {
@@ -7474,7 +7456,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions"
@@ -7486,7 +7467,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -7781,7 +7762,7 @@
                 },
                 {
                     "id": "20cc0d56-231f-43c3-83a4-6948f4ff59b9",
-                    "name": "/services/api/:tenantId/actions",
+                    "name": "/actions",
                     "request": {
                         "name": "/services/api/:tenantId/actions",
                         "description": {
@@ -7790,7 +7771,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions"
@@ -7802,7 +7782,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8201,7 +8181,7 @@
                 },
                 {
                     "id": "d2f8cb77-7b15-4446-9208-6ec55b640b15",
-                    "name": "/services/api/:tenantId/actions/:name",
+                    "name": "/actions/:name",
                     "request": {
                         "name": "/services/api/:tenantId/actions/:name",
                         "description": {
@@ -8210,7 +8190,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions",
@@ -8223,7 +8202,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8535,7 +8514,7 @@
                 },
                 {
                     "id": "490701e6-cfd6-46b6-8343-21e7377f183e",
-                    "name": "/services/api/:tenantId/actions/:name",
+                    "name": "/actions/:name",
                     "request": {
                         "name": "/services/api/:tenantId/actions/:name",
                         "description": {
@@ -8544,7 +8523,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions",
@@ -8557,7 +8535,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -8752,7 +8730,7 @@
                 },
                 {
                     "id": "f534d9dd-2474-4c48-a852-46c1e20ba697",
-                    "name": "/services/api/:tenantId/actions/:name/:hookName",
+                    "name": "/actions/:name/:hookName",
                     "request": {
                         "name": "/services/api/:tenantId/actions/:name/:hookName",
                         "description": {
@@ -8761,7 +8739,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "actions",
@@ -8775,7 +8752,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9208,7 +9185,7 @@
                 },
                 {
                     "id": "27acdf28-e376-413d-a49f-a137fafa3e9f",
-                    "name": "/services/api/:tenantId/execute/:hook",
+                    "name": "/execute/:hook",
                     "request": {
                         "name": "/services/api/:tenantId/execute/:hook",
                         "description": {
@@ -9217,7 +9194,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 ":tenantId",
                                 "execute",
@@ -9230,7 +9206,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -9652,7 +9628,7 @@
             "item": [
                 {
                     "id": "fb616570-3e7e-46a7-9240-63bc748b2b40",
-                    "name": "/services/match-iq/api/v1.0/:tenantId/config",
+                    "name": "/match-iq.0/config",
                     "request": {
                         "name": "/services/match-iq/api/v1.0/:tenantId/config",
                         "description": {
@@ -9661,7 +9637,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -9685,7 +9660,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10080,7 +10055,7 @@
                 },
                 {
                     "id": "eec87251-93bd-4b06-b6dc-c9563cfc9f22",
-                    "name": "/services/match-iq/api/v1.0/:tenantId/config",
+                    "name": "/match-iq.0/config",
                     "request": {
                         "name": "/services/match-iq/api/v1.0/:tenantId/config",
                         "description": {
@@ -10089,7 +10064,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -10103,7 +10077,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10552,7 +10526,7 @@
                 },
                 {
                     "id": "6a4d7d7f-13e2-4393-9a61-2775d89eea4c",
-                    "name": "/services/match-iq/api/v1.0/:tenantId/config",
+                    "name": "/match-iq.0/config",
                     "request": {
                         "name": "/services/match-iq/api/v1.0/:tenantId/config",
                         "description": {
@@ -10561,7 +10535,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -10575,7 +10548,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -10880,7 +10853,7 @@
                 },
                 {
                     "id": "0557dbff-4587-4a8d-8e0c-85da2d7129a0",
-                    "name": "/services/match-iq/api/v1.0/:tenantId/config/_noInheritance",
+                    "name": "/match-iq.0/config/_noInheritance",
                     "request": {
                         "name": "/services/match-iq/api/v1.0/:tenantId/config/_noInheritance",
                         "description": {
@@ -10889,7 +10862,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "match-iq",
                                 "api",
                                 "v1.0",
@@ -10904,7 +10876,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -11224,7 +11196,7 @@
             "item": [
                 {
                     "id": "91178326-5c93-4e76-831c-29e7528e3c87",
-                    "name": "/services/oauth/oauth/customers/:customerId",
+                    "name": "/customers/:customerId",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId",
                         "description": {
@@ -11233,7 +11205,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11246,7 +11217,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "(wN_I",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -11431,7 +11402,7 @@
                 },
                 {
                     "id": "0cee09d4-20a0-4a8f-b201-dfb3949bf27e",
-                    "name": "/services/oauth/oauth/customers/:customerId",
+                    "name": "/customers/:customerId",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId",
                         "description": {
@@ -11440,7 +11411,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11453,7 +11423,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "(wN_I",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -11703,7 +11673,7 @@
                 },
                 {
                     "id": "f9ab7fc5-a454-48bc-885d-ba5327c0d25a",
-                    "name": "/services/oauth/oauth/customers/:customerId/roles",
+                    "name": "/customers/:customerId/roles",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/roles",
                         "description": {
@@ -11712,7 +11682,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11736,7 +11705,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "(wN_I",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -11965,7 +11934,7 @@
                 },
                 {
                     "id": "a4a8fa4e-4183-47a2-828f-213af83acc31",
-                    "name": "/services/oauth/oauth/customers/:customerId/roles",
+                    "name": "/customers/:customerId/roles",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/roles",
                         "description": {
@@ -11974,7 +11943,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -11988,7 +11956,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "(wN_I",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -12242,7 +12210,7 @@
                 },
                 {
                     "id": "1af2caee-5e1c-4287-a3d0-8a52f825448c",
-                    "name": "/services/oauth/oauth/customers/:customerId/roles",
+                    "name": "/customers/:customerId/roles",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/roles",
                         "description": {
@@ -12251,7 +12219,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -12265,7 +12232,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "(wN_I",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -12519,7 +12486,7 @@
                 },
                 {
                     "id": "d6855a78-6f8e-444b-a9a3-c96172db340b",
-                    "name": "/services/oauth/oauth/customers/:customerId/roles/permissions",
+                    "name": "/customers/:customerId/roles/permissions",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/roles/permissions",
                         "description": {
@@ -12528,7 +12495,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -12543,7 +12509,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -12801,7 +12767,7 @@
                 },
                 {
                     "id": "55f6915f-9159-4505-a334-651d610d9b44",
-                    "name": "/services/oauth/oauth/customers/:customerId/roles/permissions/:roleName",
+                    "name": "/customers/:customerId/roles/permissions/:roleName",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/roles/permissions/:roleName",
                         "description": {
@@ -12810,7 +12776,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -12826,7 +12791,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13033,7 +12998,7 @@
                 },
                 {
                     "id": "c1c87af7-bfbe-4c21-8f93-03f8a19d290b",
-                    "name": "/services/oauth/oauth/customers/:customerId/roles/permissions/:roleName",
+                    "name": "/customers/:customerId/roles/permissions/:roleName",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/roles/permissions/:roleName",
                         "description": {
@@ -13042,7 +13007,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13058,7 +13022,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13320,7 +13284,7 @@
                 },
                 {
                     "id": "8d060ecf-0847-486c-b52e-6cac08b0765f",
-                    "name": "/services/oauth/oauth/customers/:customerId/roles/permissions/:roleName",
+                    "name": "/customers/:customerId/roles/permissions/:roleName",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/roles/permissions/:roleName",
                         "description": {
@@ -13329,7 +13293,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13345,7 +13308,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13510,7 +13473,7 @@
                 },
                 {
                     "id": "ce3c9f3a-74e3-48aa-9d79-693d6cec5e85",
-                    "name": "/services/oauth/oauth/roles/permissions/:roleName",
+                    "name": "/roles/permissions/:roleName",
                     "request": {
                         "name": "/services/oauth/oauth/roles/permissions/:roleName",
                         "description": {
@@ -13519,7 +13482,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "roles",
@@ -13688,7 +13650,7 @@
             "item": [
                 {
                     "id": "1570095f-445d-4ae4-9344-a7becafc4d32",
-                    "name": "/services/oauth/oauth/customers/:customerId/clients",
+                    "name": "/customers/:customerId/clients",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/clients",
                         "description": {
@@ -13697,7 +13659,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13711,7 +13672,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -13900,13 +13861,12 @@
                 },
                 {
                     "id": "afdb78c7-a3e9-43d6-af6d-e7e3bc6a3779",
-                    "name": "/services/oauth/oauth/customers/:customerId/clients",
+                    "name": "/customers/:customerId/clients",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/clients",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -13920,7 +13880,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14174,7 +14134,7 @@
                 },
                 {
                     "id": "8f05ed6e-8eb6-41c3-a213-e31b51acaf6c",
-                    "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId",
+                    "name": "/customers/:customerId/clients",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId",
                         "description": {
@@ -14183,7 +14143,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14198,7 +14157,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14401,13 +14360,12 @@
                 },
                 {
                     "id": "b2d822ea-b5af-43f1-a2c9-e90f49f881ee",
-                    "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId",
+                    "name": "/customers/:customerId/clients",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14432,7 +14390,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14740,13 +14698,12 @@
                 },
                 {
                     "id": "58c5bb46-73e3-43b6-8c2a-aa1f6a8d9bc9",
-                    "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId",
+                    "name": "/customers/:customerId/clients",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14761,7 +14718,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -14964,13 +14921,12 @@
                 },
                 {
                     "id": "54b817ce-fc25-4e4c-a275-55f010fba55b",
-                    "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId/multitokens",
+                    "name": "/customers/:customerId/clients/multitokens",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId/multitokens",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -14986,7 +14942,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -15193,13 +15149,12 @@
                 },
                 {
                     "id": "90a03f60-87ac-4aa1-8544-2ff0d79956b4",
-                    "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId/revoketokens",
+                    "name": "/customers/:customerId/clients/revoketokens",
                     "request": {
                         "name": "/services/oauth/oauth/customers/:customerId/clients/:clientId/revoketokens",
                         "description": {},
                         "url": {
                             "path": [
-                                "services",
                                 "oauth",
                                 "oauth",
                                 "customers",
@@ -15215,7 +15170,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -15428,7 +15383,7 @@
             "item": [
                 {
                     "id": "623d98f1-0063-42c6-827b-9f41aa03894b",
-                    "name": "/services/configuration/:tenantId",
+                    "name": "/configuration",
                     "request": {
                         "name": "/services/configuration/:tenantId",
                         "description": {
@@ -15437,7 +15392,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "configuration",
                                 ":tenantId"
                             ],
@@ -15448,7 +15402,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -15638,7 +15592,7 @@
                 },
                 {
                     "id": "baec7ca2-9d51-40a5-8b00-21d247684285",
-                    "name": "/services/configuration/:tenantId",
+                    "name": "/configuration",
                     "request": {
                         "name": "/services/configuration/:tenantId",
                         "description": {
@@ -15647,7 +15601,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "configuration",
                                 ":tenantId"
                             ],
@@ -15658,7 +15611,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -15930,7 +15883,7 @@
                 },
                 {
                     "id": "d1d01172-d74f-4634-be2b-66414aa5b839",
-                    "name": "/services/generators/:tenantId",
+                    "name": "/generators",
                     "request": {
                         "name": "/services/generators/:tenantId",
                         "description": {
@@ -15939,7 +15892,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId"
                             ],
@@ -15950,7 +15902,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16222,7 +16174,7 @@
                 },
                 {
                     "id": "669dae7b-f9f1-4e0c-9d18-4e586cef8de4",
-                    "name": "/services/generators/:tenantId/:name",
+                    "name": "/generators/:name",
                     "request": {
                         "name": "/services/generators/:tenantId/:name",
                         "description": {
@@ -16231,7 +16183,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId",
                                 ":name"
@@ -16243,7 +16194,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16448,7 +16399,7 @@
                 },
                 {
                     "id": "033fe6ac-5994-437e-878b-0120ac84c07d",
-                    "name": "/services/generators/:tenantId/:name",
+                    "name": "/generators/:name",
                     "request": {
                         "name": "/services/generators/:tenantId/:name",
                         "description": {
@@ -16457,7 +16408,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId",
                                 ":name"
@@ -16469,7 +16419,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16674,7 +16624,7 @@
                 },
                 {
                     "id": "781642a9-8f8e-4e08-a54e-e0e0d0664052",
-                    "name": "/services/generators/:tenantId/:name/generate",
+                    "name": "/generators/:name/generate",
                     "request": {
                         "name": "/services/generators/:tenantId/:name/generate",
                         "description": {
@@ -16683,7 +16633,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "generators",
                                 ":tenantId",
                                 ":name",
@@ -16696,7 +16645,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -16912,7 +16861,7 @@
             "item": [
                 {
                     "id": "f2d0c963-67d9-446c-87d5-42433f9c873d",
-                    "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
+                    "name": "/security/samlconfig/:customerId",
                     "request": {
                         "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
                         "description": {
@@ -16921,7 +16870,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -16936,7 +16884,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -16946,7 +16894,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17139,7 +17087,7 @@
                 },
                 {
                     "id": "b15f141f-fd77-441b-b469-3d378ea2f1be",
-                    "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
+                    "name": "/security/samlconfig/:customerId",
                     "request": {
                         "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
                         "description": {
@@ -17148,7 +17096,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -17163,7 +17110,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -17173,7 +17120,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17539,7 +17486,7 @@
                 },
                 {
                     "id": "5149811a-af9a-40ec-8c14-6d328b22e59b",
-                    "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
+                    "name": "/security/samlconfig/:customerId",
                     "request": {
                         "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
                         "description": {
@@ -17548,7 +17495,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -17563,7 +17509,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -17573,7 +17519,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -17885,7 +17831,7 @@
                 },
                 {
                     "id": "d19cd634-36a1-484a-bd6e-6284b54c0925",
-                    "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
+                    "name": "/security/samlconfig/:customerId",
                     "request": {
                         "name": "/services/api/v1/security/samlconfig/:customerId/:tenantId",
                         "description": {
@@ -17894,7 +17840,6 @@
                         },
                         "url": {
                             "path": [
-                                "services",
                                 "api",
                                 "v1",
                                 "security",
@@ -17909,7 +17854,7 @@
                             "variable": [
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{customerId}}",
                                     "key": "customerId",
                                     "disabled": false,
                                     "description": {
@@ -17919,7 +17864,7 @@
                                 },
                                 {
                                     "type": "any",
-                                    "value": "<string>",
+                                    "value": "{{tenant}}",
                                     "key": "tenantId",
                                     "disabled": false,
                                     "description": {
@@ -18128,5 +18073,6 @@
             "content": "Define metadata configuration of your tenants from a collection of APIs.\n\nContact Support:\n Name: Reltio\n Email: support@reltio.com",
             "type": "text/plain"
         }
-    }
+    },
+    "auth": "oath2"
 }
