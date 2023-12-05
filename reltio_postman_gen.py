@@ -102,7 +102,8 @@ def replace_name_variable(path, find, replace):
     for folder in collection.get('item'):
         endpoints = folder.get('item')
         for endpoint in endpoints:
-            endpoint['name'] = endpoint['name'].replace(find, replace)
+            if endpoint is not None:
+                endpoint['name'] = endpoint['name'].replace(find, replace)
             
           
     write_collection(collection, path)
